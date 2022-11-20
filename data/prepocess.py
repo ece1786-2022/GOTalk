@@ -14,9 +14,10 @@ def alterline(line:str):
 
 
 
-for i in range(980):
+for i in range(13871):
     line = file.readline()
-    if line != "\n" and i >= 817:
-        print(line)
-        testfile.write(line)
+    if line == "Jon\n":
+        if line != "\n" and i >= 817:
+            print(line)
+            testfile.write(line)
 testfile.close()
