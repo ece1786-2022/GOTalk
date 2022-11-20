@@ -22,7 +22,7 @@ def alterline(line:str):
             start.append(i)
         if word == '”':
             end.append(i)
-    if len(start) > 2: 
+    if len(start) > 2 or len(start) != len(end): 
         return line 
     if len(start) == 2: 
         pos = end[0]
@@ -31,8 +31,20 @@ def alterline(line:str):
             dialogue_1 = [START] + words[start[0] + 1:end[0]]
             dialogue_2 = words[start[1]+1:end[1]] + [END]
             newline = words[:start[0]] + mid_context + dialogue_1 + dialogue_2 + words[end[1]+1:]
+            # print(line)
+            # print(newline)
+    
+    # case 3
+    if len(start) == 1:
+        pos = end[0]
+        
+        if pos < len(words) - 2 and words[pos+1] == "Jon"  and (words[pos+2][-2:] == "ed" or words[pos+2] in verbs):
+            context = words[end[0]+1:]
+            dialogue = [START] + words[start[0] + 1:end[0]] + [END]
+            newline = words[:start[0]] + context + dialogue
             print(line)
             print(newline)
+
 
         # prev = word
 
