@@ -28,7 +28,7 @@ Jon answered in a flat voice . <BOS> Most times, But tonight Lady Stark thought 
 “I see.” His uncle glanced over his shoulder at the raised table at the far end of the hall. “My brother does not seem very festive tonight.”
 Jon had noticed that too . A bastard had to learn to notice things, to read the truth that people hid behind their eyes . His father was observing all the courtesies, but there was tightness in him that Jon had seldom seen before . He said little, looking out over the hall with hooded eyes, seeing nothing . Two seats away, the king had been drinking heavily all night . His broad face was flushed behind his great black beard . He made many a toast, laughed loudly at every jest, and attacked each dish like a starving man, but beside him the queen seemed as cold as an ice sculpture . Jon told his uncle in a low, quiet voice . <BOS> The queen is angry too, Father took the king down to the crypts this afternoon . The queen didn ’ t want him to go . <EOS>
 Benjen gave Jon a careful, measuring look. “You don’t miss much, do you, Jon? We could use a man like you on the Wall.”
-Jon swelled with pride . <START> Robb is a stronger lance than I am, but I ’ m the better sword, and Hullen says I sit a horse as well as anyone in the castle . <END>
+Jon swelled with pride . <BOS> Robb is a stronger lance than I am, but I ’ m the better sword, and Hullen says I sit a horse as well as anyone in the castle . <EOS>
 “Notable achievements.”
 Jon said in a sudden rush . <BOS> Take me with you when you go back to the Wall, Father will give me leave to go if you ask him, I know he will . <EOS>
 Uncle Benjen studied his face carefully. “The Wall is a hard place for a boy, Jon.”
@@ -43,7 +43,7 @@ Jon said . <BOS> A bastard can have honor too, I am ready to swear your oath . <
 “You are a boy of fourteen,” Benjen said. “Not a man, not yet. Until you have known a woman, you cannot understand what you would be giving up.”
 Jon said hotly . <BOS> I don ’ t care about that! <EOS>
 “You might, if you knew what it meant,” Benjen said. “If you knew what the oath would cost you, you might be less eager to pay the price, son.”
-Jon felt anger rise inside him . <START> I ’ m not your son! <END>
+Jon felt anger rise inside him . <BOS> I ’ m not your son! <EOS>
 Benjen Stark stood up. “More’s the pity.” He put a hand on Jon’s shoulder. “Come back to me after you’ve fathered a few bastards of your own, and we’ll see how you feel.”
 Jon trembled. “I will never father a bastard,” he said carefully. “Never!” He spat it out like venom.
 Suddenly he realized that the table had fallen silent, and they were all looking at him. He felt the tears begin to well behind his eyes. He pushed himself to his feet.
@@ -54,7 +54,7 @@ The sounds of music and song spilled through the open windows behind him. They w
 Tyrion Lannister was sitting on the ledge above the door to the Great Hall, looking for all the world like a gargoyle. The dwarf grinned down at him. “Is that animal a wolf?”
 “A direwolf,” Jon said. “His name is Ghost.” He stared up at the little man, his disappointment suddenly forgotten. “What are you doing up there? Why aren’t you at the feast?”
 “Too hot, too noisy, and I’d drunk too much wine,” the dwarf told him. “I learned long ago that it is considered rude to vomit on your brother. Might I have a closer look at your wolf?”
-Jon hesitated, then nodded slowly . <START> Can you climb down, or shall I bring a ladder? <END>
+Jon hesitated, then nodded slowly . <BOS> Can you climb down, or shall I bring a ladder? <EOS>
 “Oh, bleed that,” the little man said. He pushed himself off the ledge into empty air. Jon gasped, then watched with awe as Tyrion Lannister spun around in a tight ball, landed lightly on his hands, then vaulted backward onto his legs.
 Ghost backed away from him uncertainly.
 The dwarf dusted himself off and laughed. “I believe I’ve frightened your wolf. My apologies.”
@@ -72,7 +72,7 @@ Jon admitted stiffly . <BOS> Lord Eddard Stark is my father, <EOS>
 Lannister studied his face. “Yes,” he said. “I can see it. You have more of the north in you than your brothers.”
 Jon corrected . He was pleased by the dwarf ’ s comment, but he tried not to let it show . <BOS> Half brothers, <EOS>
 “Let me give you some counsel, bastard,” Lannister said. “Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness. Armor yourself in it, and it will never be used to hurt you.”
-Jon was in no mood for anyone ’ s counsel . <START> What do you know about being a bastard? <END>
+Jon was in no mood for anyone ’ s counsel . <BOS> What do you know about being a bastard? <EOS>
 “All dwarfs are bastards in their father’s eyes.”
 “You are your mother’s trueborn son of Lannister.”
 “Am I?” the dwarf replied, sardonic. “Do tell my lord father. My mother died birthing me, and he’s never been sure.”
@@ -99,9 +99,9 @@ Jon said . <BOS> I have to go now, Uncle Benjen is waiting . I ’ m to go north
 “I wanted him to stay here with me,” Lady Stark said softly.
 Jon watched her, wary. She was not even looking at him. She was talking to him, but for a part of her, it was as though he were not even in the room.
 “I prayed for it,” she said dully. “He was my special boy. I went to the sept and prayed seven times to the seven faces of god that Ned would change his mind and leave him here with me. Sometimes prayers are answered.”
-Jon did not know what to say . <START> It wasn ’ t your fault, <END> he managed after an awkward silence.
+Jon did not know what to say . <BOS> It wasn ’ t your fault, <EOS> he managed after an awkward silence.
 Her eyes found him. They were full of poison. “I need none of your absolution, bastard.”
-Jon lowered his eyes . She was cradling one of Bran ’ s hands . He took the other, squeezed it . Fingers like the bones of birds . <START> Good-bye, <END> he said.
+Jon lowered his eyes . She was cradling one of Bran ’ s hands . He took the other, squeezed it . Fingers like the bones of birds . <BOS> Good-bye, <EOS> he said.
 He was at the door when she called out to him. “Jon,” she said. He should have kept going, but she had never called him by his name before. He turned to find her looking at his face, as if she were seeing it for the first time.
 “Yes?” he said.
 “It should have been you,” she told him. Then she turned back to Bran and began to weep, her whole body shaking with the sobs. Jon had never seen her cry before.
@@ -117,9 +117,9 @@ Jon agreed . His voice was flat and tired . The visit had taken all the strength
 Robb knew something was wrong. “My mother …”
 Jon told him . <BOS> She was … very kind, <EOS>
 Robb looked relieved. “Good.” He smiled. “The next time I see you, you’ll be all in black.”
-Jon forced himself to smile back . <START> It was always my color . How long do you think it will be? <END>
+Jon forced himself to smile back . <BOS> It was always my color . How long do you think it will be? <EOS>
 “Soon enough,” Robb promised. He pulled Jon to him and embraced him fiercely. “Farewell, Snow.”
-Jon hugged him back . <START> And you, Stark . Take care of Bran . <END>
+Jon hugged him back . <BOS> And you, Stark . Take care of Bran . <EOS>
 “I will.” They broke apart and looked at each other awkwardly. “Uncle Benjen said to send you to the stables if I saw you,” Robb finally said.
 Jon told him . <BOS> I have one more farewell to make, <EOS>
 “Then I haven’t seen you,” Robb replied. Jon left him standing there in the snow, surrounded by wagons and wolves and horses. It was a short walk to the armory. He picked up his package and took the covered bridge across to the Keep.
@@ -149,7 +149,7 @@ Jon said . <BOS> Not if she doesn ’ t know you have it, <EOS>
 Jon promised her . <BOS> You ’ ll find someone, King ’ s Landing is a true city, a thousand times the size of Winterfell . Until you find a partner, watch how they fight in the yard . Run, and ride, make yourself strong . And whatever you do … <EOS>
 Arya knew what was coming next. They said it together.
 “… don’t … tell … Sansa!”
-Jon messed up her hair . <START> I will miss you, little sister . <END>
+Jon messed up her hair . <BOS> I will miss you, little sister . <EOS>
 Suddenly she looked like she was going to cry. “I wish you were coming with us.”
 “Different roads sometimes lead to the same castle. Who knows?” He was feeling better now. He was not going to let himself be sad. “I better go. I’ll spend my first year on the Wall emptying chamber pots if I keep Uncle Ben waiting any longer.”
 Arya ran to him for a last hug . Jon warned her, laughing . She set it aside almost shyly and showered him with kisses . <BOS> Put down the sword first, <EOS>
@@ -235,7 +235,7 @@ Grenn cradled his hand. “The bastard broke my wrist.”
 “The bastard hamstrung you, opened your empty skull, and cut off your hand. Or would have, if these blades had an edge. It’s fortunate for you that the Watch needs stableboys as well as rangers.” Ser Alliser gestured at Jeren and Toad. “Get the Aurochs on his feet, he has funeral arrangements to make.”
 Jon took off his helm as the other boys were pulling Grenn to his feet. The frosty morning air felt good on his face. He leaned on his sword, drew a deep breath, and allowed himself a moment to savor the victory.
 “That is a longsword, not an old man’s cane,” Ser Alliser said sharply. “Are your legs hurting, Lord Snow?”
-Jon hated that name, a mockery that Ser Alliser had hung on him the first day he came to practice . The boys had picked it up, and now he heard it everywhere . He slid the longsword back into its scabbard . <START> No, <END> he replied.
+Jon hated that name, a mockery that Ser Alliser had hung on him the first day he came to practice . The boys had picked it up, and now he heard it everywhere . He slid the longsword back into its scabbard . <BOS> No, <EOS> he replied.
 Thorne strode toward him, crisp black leathers whispering faintly as he moved. He was a compact man of fifty years, spare and hard, with grey in his black hair and eyes like chips of onyx. “The truth now,” he commanded.
 Jon admitted . His arm burned from the weight of the longsword, and he was starting to feel his bruises now that the fight was done . <BOS> I ’ m tired, <EOS>
 “What you are is weak.”
@@ -251,13 +251,13 @@ Even his uncle had abandoned him in this cold place at the end of the world. Up 
 Three days after their arrival, Jon had heard that Benjen Stark was to lead a half-dozen men on a ranging into the haunted forest. That night he sought out his uncle in the great timbered common hall and pleaded to go with him. Benjen refused him curtly. “This is not Winterfell,” he told him as he cut his meat with fork and dagger. “On the Wall, a man gets only what he earns. You’re no ranger, Jon, only a green boy with the smell of summer still on you.”
 Stupidly, Jon argued. “I’ll be fifteen on my name day,” he said. “Almost a man grown.”
 Benjen Stark frowned. “A boy you are, and a boy you’ll remain until Ser Alliser says you are fit to be a man of the Night’s Watch. If you thought your Stark blood would win you easy favors, you were wrong. We put aside our old families when we swear our vows. Your father will always have a place in my heart, but these are my brothers now.” He gestured with his dagger at the men around them, all the hard cold men in black.
-Jon rose at dawn the next day to watch his uncle leave . One of his rangers, a big ugly man, sang a bawdy song as he saddled his garron, his breath steaming in the cold morning air . Ben Stark smiled at that, but he had no smile for his nephew . <START> How often must I tell you no, Jon? We ’ ll speak when I return . <END>
+Jon rose at dawn the next day to watch his uncle leave . One of his rangers, a big ugly man, sang a bawdy song as he saddled his garron, his breath steaming in the cold morning air . Ben Stark smiled at that, but he had no smile for his nephew . <BOS> How often must I tell you no, Jon? We ’ ll speak when I return . <EOS>
 As he watched his uncle lead his horse into the tunnel, Jon had remembered the things that Tyrion Lannister told him on the kingsroad, and in his mind’s eye he saw Ben Stark lying dead, his blood red on the snow. The thought made him sick. What was he becoming? Afterward he sought out Ghost in the loneliness of his cell, and buried his face in his thick white fur.
 If he must be alone, he would make solitude his armor. Castle Black had no godswood, only a small sept and a drunken septon, but Jon could not find it in him to pray to any gods, old or new. If they were real, he thought, they were as cruel and implacable as winter.
 He missed his true brothers: little Rickon, bright eyes shining as he begged for a sweet; Robb, his rival and best friend and constant companion; Bran, stubborn and curious, always wanting to follow and join in whatever Jon and Robb were doing. He missed the girls too, even Sansa, who never called him anything but “my half brother” since she was old enough to understand what bastard meant. And Arya … he missed her even more than Robb, skinny little thing that she was, all scraped knees and tangled hair and torn clothes, so fierce and willful. Arya never seemed to fit, no more than he had … yet she could always make Jon smile. He would give anything to be with her now, to muss up her hair once more and watch her make a face, to hear her finish a sentence with him.
 “You broke my wrist, bastard boy.”
 Jon lifted his eyes at the sullen voice. Grenn loomed over him, thick of neck and red of face, with three of his friends behind him. He knew Todder, a short ugly boy with an unpleasant voice. The recruits all called him Toad. The other two were the ones Yoren had brought north with them, Jon remembered, rapers taken down in the Fingers. He’d forgotten their names. He hardly ever spoke to them, if he could help it. They were brutes and bullies, without a thimble of honor between them.
-Jon stood up . <START> I ’ ll break the other one for you if you ask nicely. <END> Grenn was sixteen and a head taller than Jon . All four of them were bigger than he was, but they did not scare him . He ’ d beaten every one of them in the yard.
+Jon stood up . <BOS> I ’ ll break the other one for you if you ask nicely. <EOS> Grenn was sixteen and a head taller than Jon . All four of them were bigger than he was, but they did not scare him . He ’ d beaten every one of them in the yard.
 “Maybe we’ll break you,” one of the rapers said.
 Jon reached back for his sword, but one of them grabbed his arm and twisted it behind his back . <BOS> Try. <EOS>
 “You make us look bad,” complained Toad.
@@ -272,14 +272,14 @@ Toad sat on the floor, gingerly feeling the back of his head. His fingers came a
 The armorer gave the offered wrist the briefest of glances. “A bruise. Perhaps a sprain. Maestor Aemon will give you a salve. Go with him, Todder, that head wants looking after. The rest of you, return to your cells. Not you, Snow. You stay.”
 Jon sat heavily on the long wooden bench as the others left, oblivious to the looks they gave him, the silent promises of future retribution. His arm was throbbing.
 “The Watch has need of every man it can get,” Donal Noye said when they were alone. “Even men like Toad. You won’t win any honors killing him.”
-Jon ’ s anger flared . <START> He said my mother was— <END>
+Jon ’ s anger flared . <BOS> He said my mother was— <EOS>
 “—a whore. I heard him. What of it?”
 Jon said icily . <BOS> Lord Eddard Stark was not a man to sleep with whores, His honor— <EOS>
 “—did not prevent him from fathering a bastard. Did it?”
-Jon was cold with rage . <START> Can I go? <END>
+Jon was cold with rage . <BOS> Can I go? <EOS>
 “You go when I tell you to go.”
-Jon stared sullenly at the smoke rising from the brazier, until Noye took him under the chin, thick fingers twisting his head around . <START> Look at me when I ’ m talking to you, boy . <END>
-Jon looked . The armorer had a chest like a keg of ale and a gut to match . His nose was flat and broad, and he always seemed in need of a shave . The left sleeve of his black wool tunic was fastened at the shoulder with a silver pin in the shape of a longsword . <START> Words won ’ t make your mother a whore . She was what she was, and nothing Toad says can change that . You know, we have men on the Wall whose mothers were whores . <END>
+Jon stared sullenly at the smoke rising from the brazier, until Noye took him under the chin, thick fingers twisting his head around . <BOS> Look at me when I ’ m talking to you, boy . <EOS>
+Jon looked . The armorer had a chest like a keg of ale and a gut to match . His nose was flat and broad, and he always seemed in need of a shave . The left sleeve of his black wool tunic was fastened at the shoulder with a silver pin in the shape of a longsword . <BOS> Words won ’ t make your mother a whore . She was what she was, and nothing Toad says can change that . You know, we have men on the Wall whose mothers were whores . <EOS>
 Not my mother, Jon thought stubbornly. He knew nothing of his mother; Eddard Stark would not talk of her. Yet he dreamed of her at times, so often that he could almost see her face. In his dreams, she was beautiful, and highborn, and her eyes were kind.
 “You think you had it hard, being a high lord’s bastard?” the armorer went on. “That boy Jeren is a septon’s get, and Cotter Pyke is the baseborn son of a tavern wench. Now he commands Eastwatch by the Sea.”
 Jon said . <BOS> I don ’ t care, I don ’ t care about them and I don ’ t care about you or Thorne or Benjen Stark or any of it . I hate it here . It ’ s too … it ’ s cold . <EOS>
@@ -290,7 +290,7 @@ Jon snapped . <BOS> They ’ re not my brothers, They hate me because I ’ m be
 “No. They hate you because you act like you’re better than they are. They look at you and see a castle-bred bastard who thinks he’s a lordling.” The armorer leaned close. “You’re no lordling. Remember that. You’re a Snow, not a Stark. You’re a bastard and a bully.”
 “A bully?” Jon almost choked on the word. The accusation was so unjust it took his breath away. “They were the ones who came after me. Four of them.”
 “Four that you’ve humiliated in the yard. Four who are probably afraid of you. I’ve watched you fight. It’s not training with you. Put a good edge on your sword, and they’d be dead meat; you know it, I know it, they know it. You leave them nothing. You shame them. Does that make you proud?”
-Jon hesitated . He did feel proud when he won . Why shouldn ’ t he? But the armorer was taking that away too, making it sound as if he were doing something wrong . <START> They ’ re all older than me, <END> he said defensively.
+Jon hesitated . He did feel proud when he won . Why shouldn ’ t he? But the armorer was taking that away too, making it sound as if he were doing something wrong . <BOS> They ’ re all older than me, <EOS> he said defensively.
 “Older and bigger and stronger, that’s the truth. I’ll wager your master-at-arms taught you how to fight bigger men at Winterfell, though. Who was he, some old knight?”
 Jon said warily . There was a trap here . He felt it closing around him . <BOS> Ser Rodrik Cassel, <EOS>
 Donal Noye leaned forward, into Jon’s face. “Now think on this, boy. None of these others have ever had a master-at-arms until Ser Alliser. Their fathers were farmers and wagonmen and poachers, smiths and miners and oars on a trading galley. What they know of fighting they learned between decks, in the alleys of Oldtown and Lannisport, in wayside brothels and taverns on the kingsroad. They may have clacked a few sticks together before they came here, but I promise you, not one in twenty was ever rich enough to own a real sword.” His look was grim. “So how do you like the taste of your victories now, Lord Snow?”
@@ -301,7 +301,7 @@ The largest structure ever built by the hands of man, Benjen Stark had told Jon 
 When they finally spied Castle Black, its timbered keeps and stone towers looked like nothing more than a handful of toy blocks scattered on the snow, beneath the vast wall of ice. The ancient stronghold of the black brothers was no Winterfell, no true castle at all. Lacking walls, it could not be defended, not from the south, or east, or west; but it was only the north that concerned the Night’s Watch, and to the north loomed the Wall. Almost seven hundred feet high it stood, three times the height of the tallest tower in the stronghold it sheltered. His uncle said the top was wide enough for a dozen armored knights to ride abreast. The gaunt outlines of huge catapults and monstrous wooden cranes stood sentry up there, like the skeletons of great birds, and among them walked men in black as small as ants.
 As he stood outside the armory looking up, Jon felt almost as overwhelmed as he had that day on the kingsroad, when he’d seen it for the first time. The Wall was like that. Sometimes he could almost forget that it was there, the way you forgot about the sky or the earth underfoot, but there were other times when it seemed as if there was nothing else in the world. It was older than the Seven Kingdoms, and when he stood beneath it and looked up, it made Jon dizzy. He could feel the great weight of all that ice pressing down on him, as if it were about to topple, and somehow Jon knew that if it fell, the world fell with it.
 “Makes you wonder what lies beyond,” a familiar voice said.
-Jon looked around . <START> Lannister . I didn ’ t see—I mean, I thought I was alone . <END>
+Jon looked around . <BOS> Lannister . I didn ’ t see—I mean, I thought I was alone . <EOS>
 Tyrion Lannister was bundled in furs so thickly he looked like a very small bear. “There’s much to be said for taking people unawares. You never know what you might learn.”
 Jon told him . He had seen little of the dwarf since their journey ended . As the queen ’ s own brother, Tyrion Lannister had been an honored guest of the Night ’ s Watch . The Lord Commander had given him rooms in the King ’ s Tower—so-called, though no king had visited it for a hundred years—and Lannister dined at Mormont ’ s own table and spent his days riding the Wall and his nights dicing and drinking with Ser Alliser and Bowen Marsh and the other high officers . <BOS> You won ’ t learn anything from me, <EOS>
 “Oh, I learn things everywhere I go.” The little man gestured up at the Wall with a gnarled black walking stick. “As I was saying … why is it that when one man builds a wall, the next man immediately needs to know what’s on the other side?” He cocked his head and looked at Jon with his curious mismatched eyes. “You do want to know what’s on the other side, don’t you?”
@@ -313,7 +313,7 @@ Jon was hungry too, so he fell in beside Lannister and slowed his pace to match 
 “I don’t see your wolf,” Lannister said as they walked.
 “I chain him up in the old stables when we’re training. They board all the horses in the east stables now, so no one bothers him. The rest of the time he stays with me. My sleeping cell is in Hardin’s Tower.”
 “That’s the one with the broken battlement, no? Shattered stone in the yard below, and a lean to it like our noble king Robert after a long night’s drinking? I thought all those buildings had been abandoned.”
-Jon shrugged . <START> No one cares where you sleep . Most of the old keeps are empty, you can pick any cell you want. <END> Once Castle Black had housed five thousand fighting men with all their horses and servants and weapons . Now it was home to a tenth that number, and parts of it were falling into ruin.
+Jon shrugged . <BOS> No one cares where you sleep . Most of the old keeps are empty, you can pick any cell you want. <EOS> Once Castle Black had housed five thousand fighting men with all their horses and servants and weapons . Now it was home to a tenth that number, and parts of it were falling into ruin.
 Tyrion Lannister’s laughter steamed in the cold air. “I’ll be sure to tell your father to arrest more stonemasons, before your tower collapses.”
 Jon could taste the mockery there, but there was no denying the truth. The Watch had built nineteen great strongholds along the Wall, but only three were still occupied: Eastwatch on its grey windswept shore, the Shadow Tower hard by the mountains where the Wall ended, and Castle Black between them, at the end of the kingsroad. The other keeps, long deserted, were lonely, haunted places, where cold winds whistled through black windows and the spirits of the dead manned the parapets.
 Jon said stubbornly . <BOS> It ’ s better that I ’ m by myself, The rest of them are scared of Ghost . <EOS>
@@ -341,7 +341,7 @@ Jon’s finger traced the outline of the direwolf in the white wax of the broken
 He looked at the words, but they didn’t matter. Nothing mattered. Bran was going to live. “My brother is going to live,” he told Mormont. The Lord Commander shook his head, gathered up a fistful of corn, and whistled. The raven flew to his shoulder, crying, “Live! Live!”
 Jon ran down the stairs, a smile on his face and Robb’s letter in his hand. “My brother is going to live,” he told the guards. They exchanged a look. He ran back to the common hall, where he found Tyrion Lannister just finishing his meal. He grabbed the little man under the arms, hoisted him up in the air, and spun him around in a circle. “Bran is going to live!” he whooped. Lannister looked startled. Jon put him down and thrust the paper into his hands. “Here, read it,” he said.
 Others were gathering around and looking at him curiously. Jon noticed Grenn a few feet away. A thick woolen bandage was wrapped around one hand. He looked anxious and uncomfortable, not menacing at all. Jon went to him. Grenn edged backward and put up his hands. “Stay away from me now, you bastard.”
-Jon smiled at him . <START> I ’ m sorry about your wrist . Robb used the same move on me once, only with a wooden blade . It hurt like seven hells, but yours must be worse . Look, if you want, I can show you how to defend that . <END>
+Jon smiled at him . <BOS> I ’ m sorry about your wrist . Robb used the same move on me once, only with a wooden blade . It hurt like seven hells, but yours must be worse . Look, if you want, I can show you how to defend that . <EOS>
 Alliser Thorne overheard him. “Lord Snow wants to take my place now.” He sneered. “I’d have an easier time teaching a wolf to juggle than you will training this aurochs.”
 Jon said . <BOS> I ’ ll take that wager, Ser Alliser, I ’ d love to see Ghost juggle . <EOS>
 Jon heard Grenn suck in his breath, shocked. Silence fell.
@@ -468,17 +468,17 @@ He felt Catelyn tremble in his arms. Her scarred hands clung to him. “If,” s
 That was the most dangerous part, Ned knew. “All justice flows from the king,” he told her. “When I know the truth, I must go to Robert.” And pray that he is the man I think he is, he finished silently, and not the man I fear he has become.
 Jon was showing Dareon how best to deliver a sidestroke when the new recruit entered the practice yard. “Your feet should be farther apart,” he urged. “You don’t want to lose your balance. That’s good. Now pivot as you deliver the stroke, get all your weight behind the blade.”
 Dareon broke off and lifted his visor. “Seven gods,” he murmured. “Would you look at this, Jon.”
-Jon turned . Through the eye slit of his helm, he beheld the fattest boy he had ever seen standing in the door of the armory . By the look of him, he must have weighed twenty stone . The fur collar of his embroidered surcoat was lost beneath his chins . Pale eyes moved nervously in a great round moon of a face, and plump sweaty fingers wiped themselves on the velvet of his doublet . <START> They … they told me I was to come here for … for training, <END> he said to no one in particular.
+Jon turned . Through the eye slit of his helm, he beheld the fattest boy he had ever seen standing in the door of the armory . By the look of him, he must have weighed twenty stone . The fur collar of his embroidered surcoat was lost beneath his chins . Pale eyes moved nervously in a great round moon of a face, and plump sweaty fingers wiped themselves on the velvet of his doublet . <BOS> They … they told me I was to come here for … for training, <EOS> he said to no one in particular.
 “A lordling,” Pyp observed to Jon. “Southron, most like near Highgarden.” Pyp had traveled the Seven Kingdoms with a mummers’ troupe, and bragged that he could tell what you were and where you’d been born just from the sound of your voice.
 A striding huntsman had been worked in scarlet thread upon the breast of the fat boy’s fur-trimmed surcoat. Jon did not recognize the sigil. Ser Alliser Thorne looked over his new charge and said, “It would seem they have run short of poachers and thieves down south. Now they send us pigs to man the Wall. Is fur and velvet your notion of armor, my Lord of Ham?”
 It was soon revealed that the new recruit had brought his own armor with him; padded doublet, boiled leather, mail and plate and helm, even a great wood-and-leather shield blazoned with the same striding huntsman he wore on his surcoat. As none of it was black, however, Ser Alliser insisted that he reequip himself from the armory. That took half the morning. His girth required Donal Noye to take apart a mail hauberk and refit it with leather panels at the sides. To get a helm over his head the armorer had to detach the visor. His leathers bound so tightly around his legs and under his arms that he could scarcely move. Dressed for battle, the new boy looked like an overcooked sausage about to burst its skin. “Let us hope you are not as inept as you look,” Ser Alliser said. “Halder, see what Ser Piggy can do.”
-Jon Snow winced . Halder had been born in a quarry and apprenticed as a stonemason . He was sixteen, tall and muscular, and his blows were as hard as any Jon had ever felt . <START> This will be uglier than a whore ’ s ass, <END> Pyp muttered, and it was.
+Jon Snow winced . Halder had been born in a quarry and apprenticed as a stonemason . He was sixteen, tall and muscular, and his blows were as hard as any Jon had ever felt . <BOS> This will be uglier than a whore ’ s ass, <EOS> Pyp muttered, and it was.
 The fight lasted less than a minute before the fat boy was on the ground, his whole body shaking as blood leaked through his shattered helm and between his pudgy fingers. “I yield,” he shrilled. “No more, I yield, don’t hit me.” Rast and some of the other boys were laughing.
 Even then, Ser Alliser would not call an end. “On your feet, Ser Piggy,” he called. “Pick up your sword.” When the boy continued to cling to the ground, Thorne gestured to Halder. “Hit him with the flat of your blade until he finds his feet.” Halder delivered a tentative smack to his foe’s upraised cheeks. “You can hit harder than that,” Thorne taunted. Halder took hold of his longsword with both hands and brought it down so hard the blow split leather, even on the flat. The new boy screeched in pain.
-Jon Snow took a step forward . Pyp laid a mailed hand on his arm . <START> Jon, no, <END> the small boy whispered with an anxious glance at Ser Alliser Thorne.
+Jon Snow took a step forward . Pyp laid a mailed hand on his arm . <BOS> Jon, no, <EOS> the small boy whispered with an anxious glance at Ser Alliser Thorne.
 “On your feet,” Thorne repeated. The fat boy struggled to rise, slipped, and fell heavily again. “Ser Piggy is starting to grasp the notion,” Ser Alliser observed. “Again.”
 Halder lifted the sword for another blow. “Cut us off a ham!” Rast urged, laughing.
-Jon shook off Pyp ’ s hand . <START> Halder, enough . <END>
+Jon shook off Pyp ’ s hand . <BOS> Halder, enough . <EOS>
 Halder looked to Ser Alliser.
 “The Bastard speaks and the peasants tremble,” the master-at-arms said in that sharp, cold voice of his. “I remind you that I am the master-at-arms here, Lord Snow.”
 Jon urged, ignoring Thorne as best he could . <BOS> Look at him, Halder, There ’ s no honor in beating a fallen foe . He yielded. <EOS> He knelt beside the fat boy.
@@ -554,7 +554,7 @@ Until the dawn of his fifteenth name day, when he had been awakened to find his 
 Sam told the tale in a calm, dead voice, as if it were something that had happened to someone else, not to him. And strangely, Jon thought, he did not weep, not even once. When he was done, they sat together and listened to the wind for a time. There was no other sound in all the world.
 Finally Jon said, “We should go back to the common hall.”
 “Why?” Sam asked.
-Jon shrugged . <START> There ’ s hot cider to drink, or mulled wine if you prefer . Some nights Dareon sings for us, if the mood is on him . He was a singer, before … well, not truly, but almost, an apprentice singer . <END>
+Jon shrugged . <BOS> There ’ s hot cider to drink, or mulled wine if you prefer . Some nights Dareon sings for us, if the mood is on him . He was a singer, before … well, not truly, but almost, an apprentice singer . <EOS>
 “How did he come here?” Sam asked.
 Jon smiled . <BOS> Lord Rowan of Goldengrove found him in bed with his daughter . The girl was two years older, and Dareon swears she helped him through her window, but under her father ’ s eye she named it rape, so here he is . When Maester Aemon heard him sing, he said his voice was honey poured over thunder. Toad sometimes sings too, if you call it singing . Drinking songs he learned in his father ’ s winesink . Pyp says his voice is piss poured over a fart. <EOS> They laughed at that together.
 “I should like to hear them both,” Sam admitted, “but they would not want me there.” His face was troubled. “He’s going to make me fight again on the morrow, isn’t he?”
@@ -611,13 +611,13 @@ Ghost returned as he crested a rise and saw the distant glow of lamplight from t
 Maester Aemon’s apartments were in a stout wooden keep below the rookery. Aged and frail, the maester shared his chambers with two of the younger stewards, who tended to his needs and helped him in his duties. The brothers joked that he had been given the two ugliest men in the Night’s Watch; being blind, he was spared having to look at them. Clydas was short, bald, and chinless, with small pink eyes like a mole. Chett had a wen on his neck the size of a pigeon’s egg, and a face red with boils and pimples. Perhaps that was why he always seemed so angry.
 It was Chett who answered Jon ’ s knock . Jon told him . <BOS> I need to speak to Maester Aemon, <EOS>
 “The maester is abed, as you should be. Come back on the morrow and maybe he’ll see you.” He began to shut the door.
-Jon jammed it open with his boot . <START> I need to speak to him now . The morning will be too late . <END>
+Jon jammed it open with his boot . <BOS> I need to speak to him now . The morning will be too late . <EOS>
 Chett scowled. “The maester is not accustomed to being woken in the night. Do you know how old he is?”
 Jon said . <BOS> Old enough to treat visitors with more courtesy than you, Give him my pardons . I would not disturb his rest if it were not important . <EOS>
 “And if I refuse?”
-Jon had his boot wedged solidly in the door . <START> I can stand here all night if I must . <END>
+Jon had his boot wedged solidly in the door . <BOS> I can stand here all night if I must . <EOS>
 The black brother made a disgusted noise and opened the door to admit him. “Wait in the library. There’s wood. Start a fire. I won’t have the maester catching a chill on account of you.”
-Jon had the logs crackling merrily by the time Chett led in Maester Aemon . The old man was clad in his bed robe, but around his throat was the chain collar of his order . A maester did not remove it even to sleep . <START> The chair beside the fire would be pleasant, <END> he said when he felt the warmth on his face . When he was settled comfortably, Chett covered his legs with a fur and went to stand by the door.
+Jon had the logs crackling merrily by the time Chett led in Maester Aemon . The old man was clad in his bed robe, but around his throat was the chain collar of his order . A maester did not remove it even to sleep . <BOS> The chair beside the fire would be pleasant, <EOS> he said when he felt the warmth on his face . When he was settled comfortably, Chett covered his legs with a fur and went to stand by the door.
 “I am sorry to have woken you, Maester,” Jon Snow said.
 “You did not wake me,” Maester Aemon replied. “I find I need less sleep as I grow older, and I am grown very old. I often spend half the night with ghosts, remembering times fifty years past as if they were yesterday. The mystery of a midnight visitor is a welcome diversion. So tell me, Jon Snow, why have you come calling at this strange hour?”
 “To ask that Samwell Tarly be taken from training and accepted as a brother of the Night’s Watch.”
@@ -660,7 +660,7 @@ Mormont stood before the altar, the rainbow shining on his broad bald head. “Y
 “You have learned the words of the vow. Think carefully before you say them, for once you have taken the black, there is no turning back. The penalty for desertion is death.” The Old Bear paused for a moment before he said, “Are there any among you who wish to leave our company? If so, go now, and no one shall think the less of you.”
 No one moved.
 “Well and good,” said Mormont. “You may take your vows here at evenfall, before Septon Celladar and the first of your order. Do any of you keep to the old gods?”
-Jon stood . <START> I do, my lord . <END>
+Jon stood . <BOS> I do, my lord . <EOS>
 “I expect you will want to say your words before a heart tree, as your uncle did,” Mormont said.
 Jon said . The gods of the sept had nothing to do with him; the blood of the First Men flowed in the veins of the Starks . <BOS> Yes, my lord, <EOS>
 He heard Grenn whispering behind him. “There’s no godswood here. Is there? I never saw a godswood.”
@@ -689,7 +689,7 @@ It was all Jon could do to stop himself from walking out. Was he supposed to chu
 “As you wish,” Bowen Marsh responded.
 Dareon and Sam left with him. They descended to the yard in silence. Outside, Jon looked up at the Wall shining in the sun, the melting ice creeping down its side in a hundred thin fingers. Jon’s rage was such that he would have smashed it all in an instant, and the world be damned.
 “Jon,” Samwell Tarly said excitedly. “Wait. Don’t you see what they’re doing?”
-Jon turned on him in a fury . <START> I see Ser Alliser ’ s bloody hand, that ’ s all I see . He wanted to shame me, and he has . <END>
+Jon turned on him in a fury . <BOS> I see Ser Alliser ’ s bloody hand, that ’ s all I see . He wanted to shame me, and he has . <EOS>
 Dareon gave him a look. “The stewards are fine for the likes of you and me, Sam, but not for Lord Snow.”
 Jon blazed back . <BOS> I ’ m a better swordsman and a better rider than any of you, It ’ s not fair . <EOS>
 “Fair?” Dareon sneered. “The girl was waiting for me, naked as the day she was born. She pulled me through the window, and you talk to me of fair?” He walked off.
@@ -697,11 +697,11 @@ Jon blazed back . <BOS> I ’ m a better swordsman and a better rider than any o
 “Do you think I want to spend the rest of my life washing an old man’s smallclothes?”
 “The old man is Lord Commander of the Night’s Watch,” Sam reminded him. “You’ll be with him day and night. Yes, you’ll pour his wine and see that his bed linen is fresh, but you’ll also take his letters, attend him at meetings, squire for him in battle. You’ll be as close to him as his shadow. You’ll know everything, be a part of everything … and the Lord Steward said Mormont asked for you himself!
 “When I was little, my father used to insist that I attend him in the audience chamber whenever he held court. When he rode to Highgarden to bend his knee to Lord Tyrell, he made me come. Later, though, he started to take Dickon and leave me at home, and he no longer cared whether I sat through his audiences, so long as Dickon was there. He wanted his heir at his side, don’t you see? To watch and listen and learn from all he did. I’ll wager that’s why Lord Mormont requested you, Jon. What else could it be? He wants to groom you for command!”
-Jon was taken aback . It was true, Lord Eddard had often made Robb part of his councils back at Winterfell . Could Sam be right? Even a bastard could rise high in the Night ’ s Watch, they said . <START> I never asked for this, <END> he said stubbornly.
+Jon was taken aback . It was true, Lord Eddard had often made Robb part of his councils back at Winterfell . Could Sam be right? Even a bastard could rise high in the Night ’ s Watch, they said . <BOS> I never asked for this, <EOS> he said stubbornly.
 “None of us are here for asking,” Sam reminded him.
 And suddenly Jon Snow was ashamed.
 Craven or not, Samwell Tarly had found the courage to accept his fate like a man. On the Wall, a man gets only what he earns, Benjen Stark had said the last night Jon had seen him alive. You’re no ranger, Jon, only a green boy with the smell of summer still on you. He’d heard it said that bastards grow up faster than other children; on the Wall, you grew up or you died.
-Jon let out a deep sigh . <START> You have the right of it . I was acting the boy . <END>
+Jon let out a deep sigh . <BOS> You have the right of it . I was acting the boy . <EOS>
 “Then you’ll stay and say your words with me?”
 “The old gods will be expecting us.” He made himself smile.
 They set out late that afternoon. The Wall had no gates as such, neither here at Castle Black nor anywhere along its three hundred miles. They led their horses down a narrow tunnel cut through the ice, cold dark walls pressing in around them as the passage twisted and turned. Three times their way was blocked by iron bars, and they had to stop while Bowen Marsh drew out his keys and unlocked the massive chains that secured them. Jon could sense the vast weight pressing down on him as he waited behind the Lord Steward. The air was colder than a tomb, and more still. He felt a strange relief when they reemerged into the afternoon light on the north side of the Wall.
@@ -733,7 +733,7 @@ Last night he had dreamt the Winterfell dream again. He was wandering the empty 
 Samwell Tarly huddled beneath the trees, half-hidden behind the horses. His round fat face was the color of curdled milk. So far he had not lurched off to the woods to retch, but he had not so much as glanced at the dead men either. “I can’t look,” he whispered miserably.
 Jon told him, keeping his voice low so the others would not hear . <BOS> You have to look, Maester Aemon sent you to be his eyes, didn ’ t he? What good are eyes if they ’ re shut? <EOS>
 “Yes, but … I’m such a coward, Jon.”
-Jon put a hand on Sam ’ s shoulder . <START> We have a dozen rangers with us, and the dogs, even Ghost . No one will hurt you, Sam . Go ahead and look . The first look is the hardest . <END>
+Jon put a hand on Sam ’ s shoulder . <BOS> We have a dozen rangers with us, and the dogs, even Ghost . No one will hurt you, Sam . Go ahead and look . The first look is the hardest . <EOS>
 Sam gave a tremulous nod, working up his courage with a visible effort. Slowly he swiveled his head. His eyes widened, but Jon held his arm so he could not turn away.
 “Ser Jaremy,” the Old Bear asked gruffly, “Ben Stark had six men with him when he rode from the Wall. Where are the others?”
 Ser Jaremy shook his head. “Would that I knew.”
@@ -764,7 +764,7 @@ Sam edged past Jon and the garrons, sweating profusely. “My lord, it … it ca
 “Yes?” Mormont growled impatiently. “Blood, what of it?”
 “He soils his smallclothes at the sight of it,” Chett shouted out, and the rangers laughed.
 Sam mopped at the sweat on his brow. “You … you can see where Ghost … Jon’s direwolf … you can see where he tore off that man’s hand, and yet … the stump hasn’t bled, look …” He waved a hand. “My father … L-lord Randyll, he, he made me watch him dress animals sometimes, when … after …” Sam shook his head from side to side, his chins quivering. Now that he had looked at the bodies, he could not seem to look away. “A fresh kill … the blood would still flow, my lords. Later … later it would be clotted, like a … a jelly, thick and … and …” He looked as though he was going to be sick. “This man … look at the wrist, it’s all … crusty … dry … like …”
-Jon saw at once what Sam meant . He could see the torn veins in the dead man ’ s wrist, iron worms in the pale flesh . His blood was a black dust . Yet Jaremy Rykker was unconvinced . <START> If they ’ d been dead much longer than a day, they ’ d be ripe by now, boy . They don ’ t even smell . <END>
+Jon saw at once what Sam meant . He could see the torn veins in the dead man ’ s wrist, iron worms in the pale flesh . His blood was a black dust . Yet Jaremy Rykker was unconvinced . <BOS> If they ’ d been dead much longer than a day, they ’ d be ripe by now, boy . They don ’ t even smell . <EOS>
 Dywen, the gnarled old forester who liked to boast that he could smell snow coming on, sidled closer to the corpses and took a whiff. “Well, they’re no pansy flowers, but … m’lord has the truth of it. There’s no corpse stink.”
 “They … they aren’t rotting.” Sam pointed, his fat finger shaking only a little. “Look, there’s … there’s no maggots or … or … worms or anything … they’ve been lying here in the woods, but they … they haven’t been chewed or eaten by animals … only Ghost … otherwise they’re … they’re …”
 Jon said softly . <BOS> Untouched, And Ghost is different . The dogs and the horses won ’ t go near them . <EOS>
@@ -796,7 +796,7 @@ As they led their horses back to the stable, Jon was uncomfortably aware that pe
 Something’s wrong, Jon thought. Something’s very wrong.
 The dead men were carried to one of the storerooms along the base of the Wall, a dark cold cell chiseled from the ice and used to keep meat and grain and sometimes even beer. Jon saw that Mormont’s horse was fed and watered and groomed before he took care of his own. Afterward he sought out his friends. Grenn and Toad were on watch, but he found Pyp in the common hall. “What’s happened?” he asked.
 Pyp lowered his voice. “The king’s dead.”
-Jon was stunned . Robert Baratheon had looked old and fat when he visited Winterfell, yet he ’ d seemed hale enough, and there ’ d been no talk of illness . <START> How can you know? <END>
+Jon was stunned . Robert Baratheon had looked old and fat when he visited Winterfell, yet he ’ d seemed hale enough, and there ’ d been no talk of illness . <BOS> How can you know? <EOS>
 “One of the guards overheard Clydas reading the letter to Maester Aemon.” Pyp leaned close. “Jon, I’m sorry. He was your father’s friend, wasn’t he?”
 Jon wondered if Joffrey would keep his father as the King ’ s Hand . It did not seem likely . That might mean Lord Eddard would return to Winterfell, and his sisters as well . He might even be allowed to visit them, with Lord Mormont ’ s permission . It would be good to see Arya ’ s grin again and to talk with his father . I will ask him about my mother, he resolved . I am a man now, it is past time he told me . Even if she was a whore, I don ’ t care, I want to know . <BOS> They were as close as brothers, once. <EOS>
 “I heard Hake say the dead men were your uncle’s,” Pyp said.
@@ -810,9 +810,9 @@ When he entered the solar, Mormont’s raven screamed at him. “Corn!” the bi
 “For myself, my lord?”
 Mormont lifted his eyes from the letter to stare at Jon. There was pity in that look; he could taste it. “You heard me.”
 Jon poured with exaggerated care, vaguely aware that he was drawing out the act. When the cups were filled, he would have no choice but to face whatever was in that letter. Yet all too soon, they were filled. “Sit, boy,” Mormont commanded him. “Drink.”
-Jon remained standing . <START> It ’ s my father, isn ’ t it? <END>
+Jon remained standing . <BOS> It ’ s my father, isn ’ t it? <EOS>
 The Old Bear tapped the letter with a finger. “Your father and the king,” he rumbled. “I won’t lie to you, it’s grievous news. I never thought to see another king, not at my age, with Robert half my years and strong as a bull.” He took a gulp of wine. “They say the king loved to hunt. The things we love destroy us every time, lad. Remember that. My son loved that young wife of his. Vain woman. If not for her, he would never have thought to sell those poachers.”
-Jon could scarcely follow what he was saying . <START> My lord, I don ’ t understand . What ’ s happened to my father? <END>
+Jon could scarcely follow what he was saying . <BOS> My lord, I don ’ t understand . What ’ s happened to my father? <EOS>
 “I told you to sit,” Mormont grumbled. “Sit,” the raven screamed. “And have a drink, damn you. That’s a command, Snow.”
 Jon sat, and took a sip of wine.
 “Lord Eddard has been imprisoned. He is charged with treason. It is said he plotted with Robert’s brothers to deny the throne to Prince Joffrey.”
@@ -903,14 +903,14 @@ Whatever demonic force moved Othor had been driven out by the flames; the twiste
 “Yes, my lord.” The soft leather gave beneath Jon’s fingers, as if the sword were molding itself to his grip already. He knew he should be honored, and he was, and yet …
 He is not my father. The thought leapt unbidden to Jon’s mind. Lord Eddard Stark is my father. I will not forget him, no matter how many swords they give me. Yet he could scarcely tell Lord Mormont that it was another man’s sword he dreamt of …
 “I want no courtesies either,” Mormont said, “so thank me no thanks. Honor the steel with deeds, not words.”
-Jon nodded . <START> Does it have a name, my lord? <END>
+Jon nodded . <BOS> Does it have a name, my lord? <EOS>
 “It did, once. Longclaw, it was called.”
 “Claw,” the raven cried. “Claw.”
 Jon tried a practice cut . He was clumsy and uncomfortable with his left hand, yet even so the steel seemed to flow through the air, as if it had a will of its own . <BOS> Longclaw is an apt name. Wolves have claws, as much as bears . <EOS>
 The Old Bear seemed pleased by that. “I suppose they do. You’ll want to wear that over the shoulder, I imagine. It’s too long for the hip, at least until you’ve put on a few inches. And you’ll need to work at your two-handed strikes as well. Ser Endrew can show you some moves, when your burns have healed.”
 “Ser Endrew?” Jon did not know the name.
 “Ser Endrew Tarth, a good man. He’s on his way from the Shadow Tower to assume the duties of master-at-arms. Ser Alliser Thorne left yestermorn for Eastwatch-by-the-Sea.”
-Jon lowered the sword . <START> Why? <END> he said, stupidly.
+Jon lowered the sword . <BOS> Why? <EOS> he said, stupidly.
 Mormont snorted. “Because I sent him, why do you think? He’s bringing the hand your Ghost tore off the end of Jafer Flowers’s wrist. I have commanded him to take ship to King’s Landing and lay it before this boy king. That should get young Joffrey’s attention, I’d think … and Ser Alliser’s a knight, highborn, anointed, with old friends at court, altogether harder to ignore than a glorified crow.”
 “Crow.” Jon thought the raven sounded faintly indignant.
 “As well,” the Lord Commander continued, ignoring the bird’s protest, “it puts a thousand leagues twixt him and you without it seeming a rebuke.” He jabbed a finger up at Jon’s face. “And don’t think this means I approve of that nonsense in the common hall. Valor makes up for a fair amount of folly, but you’re not a boy anymore, however many years you’ve seen. That’s a man’s sword you have there, and it will take a man to wield her. I’ll expect you to act the part, henceforth.”
@@ -923,13 +923,13 @@ A half dozen of his friends were lurking outside when he left the King’s Tower
 Jon said . <BOS> At what? <EOS>
 Toad sidled close. “Your rosy butt cheeks, what else?”
 “The sword,” Grenn stated. “We want to see the sword.”
-Jon raked them with an accusing look . <START> You knew . <END>
+Jon raked them with an accusing look . <BOS> You knew . <EOS>
 Pyp grinned. “We’re not all as dumb as Grenn.”
 “You are so,” insisted Grenn. “You’re dumber.”
 Halder gave an apologetic shrug. “I helped Pate carve the stone for the pommel,” the builder said, “and your friend Sam bought the garnets in Mole’s Town.”
 “We knew even before that, though,” Grenn said. “Rudge has been helping Donal Noye in the forge. He was there when the Old Bear brought him the burnt blade.”
 “The sword!” Matt insisted. The others took up the chant. “The sword, the sword, the sword.”
-Jon unsheathed Longclaw and showed it to them, turning it this way and that so they could admire it . The bastard blade glittered in the pale sunlight, dark and deadly . <START> Valyrian steel, <END> he declared solemnly, trying to sound as pleased and proud as he ought to have felt.
+Jon unsheathed Longclaw and showed it to them, turning it this way and that so they could admire it . The bastard blade glittered in the pale sunlight, dark and deadly . <BOS> Valyrian steel, <EOS> he declared solemnly, trying to sound as pleased and proud as he ought to have felt.
 “I heard of a man who had a razor made of Valyrian steel,” declared Toad. “He cut his head off trying to shave.”
 Pyp grinned. “The Night’s Watch is thousands of years old,” he said, “but I’ll wager Lord Snow’s the first brother ever honored for burning down the Lord Commander’s Tower.”
 The others laughed, and even Jon had to smile. The fire he’d started had not, in truth, burned down that formidable stone tower, but it had done a fair job of gutting the interior of the top two floors, where the Old Bear had his chambers. No one seemed to mind that very much, since it had also destroyed Othor’s murderous corpse.
@@ -945,15 +945,15 @@ It was not time for his bandages to be changed. Jon frowned suspiciously. “Why
 Jon pointed out forcefully, disgusted . <BOS> He ’ s blind, I can find the way myself. <EOS> He left Sam standing there, openmouthed and quivering.
 He found Maester Aemon up in the rookery, feeding the ravens. Clydas was with him, carrying a bucket of chopped meat as they shuffled from cage to cage. “Sam said you wanted me?”
 The maester nodded. “I did indeed. Clydas, give Jon the bucket. Perhaps he will be kind enough to assist me.” The hunched, pink-eyed brother handed Jon the bucket and scurried down the ladder. “Toss the meat into the cages,” Aemon instructed him. “The birds will do the rest.”
-Jon shifted the bucket to his right hand and thrust his left down into the bloody bits . The ravens began to scream noisily and fly at the bars, beating at the metal with night-black wings . The meat had been chopped into pieces no larger than a finger joint . He filled his fist and tossed the raw red morsels into the cage, and the squawking and squabbling grew hotter . Feathers flew as two of the larger birds fought over a choice piece . Quickly Jon grabbed a second handful and threw it in after the first . <START> Lord Mormont ’ s raven likes fruit and corn . <END>
+Jon shifted the bucket to his right hand and thrust his left down into the bloody bits . The ravens began to scream noisily and fly at the bars, beating at the metal with night-black wings . The meat had been chopped into pieces no larger than a finger joint . He filled his fist and tossed the raw red morsels into the cage, and the squawking and squabbling grew hotter . Feathers flew as two of the larger birds fought over a choice piece . Quickly Jon grabbed a second handful and threw it in after the first . <BOS> Lord Mormont ’ s raven likes fruit and corn . <EOS>
 “He is a rare bird,” the maester said. “Most ravens will eat grain, but they prefer flesh. It makes them strong, and I fear they relish the taste of blood. In that they are like men … and like men, not all ravens are alike.”
 Jon had nothing to say to that. He threw meat, wondering why he’d been summoned. No doubt the old man would tell him, in his own good time. Maester Aemon was not a man to be hurried.
 “Doves and pigeons can also be trained to carry messages,” the maester went on, “though the raven is a stronger flyer, larger, bolder, far more clever, better able to defend itself against hawks … yet ravens are black, and they eat the dead, so some godly men abhor them. Baelor the Blessed tried to replace all the ravens with doves, did you know?” The maester turned his white eyes on Jon, smiling. “The Night’s Watch prefers ravens.”
-Jon ’ s fingers were in the bucket, blood up to the wrist . <START> Dywen says the wildlings call us crows, <END> he said uncertainly.
+Jon ’ s fingers were in the bucket, blood up to the wrist . <BOS> Dywen says the wildlings call us crows, <EOS> he said uncertainly.
 “The crow is the raven’s poor cousin. They are both beggars in black, hated and misunderstood.”
 Jon wished he understood what they were talking about, and why. What did he care about ravens and doves? If the old man had something to say to him, why couldn’t he just say it?
 “Jon, did you ever wonder why the men of the Night’s Watch take no wives and father no children?” Maester Aemon asked.
-Jon shrugged . <START> No. <END> He scattered more meat . The fingers of his left hand were slimy with blood, and his right throbbed from the weight of the bucket.
+Jon shrugged . <BOS> No. <EOS> He scattered more meat . The fingers of his left hand were slimy with blood, and his right throbbed from the weight of the bucket.
 “So they will not love,” the old man answered, “for love is the bane of honor, the death of duty.”
 That did not sound right to Jon, yet he said nothing. The maester was a hundred years old, and a high officer of the Night’s Watch; it was not his place to contradict him.
 The old man seemed to sense his doubts. “Tell me, Jon, if the day should ever come when your lord father must needs choose between honor on the one hand and those he loves on the other, what would he do?”
@@ -968,7 +968,7 @@ Maester Aemon turned his head and looked at him with those dead white eyes. It w
 The old man laid a withered, spotted hand on his shoulder. “It hurts, boy,” he said softly. “Oh, yes. Choosing … it has always hurt. And always will. I know.”
 Jon said bitterly . <BOS> You don ’ t know, No one knows . Even if I am his bastard, he ’ s still my father … <EOS>
 Maester Aemon sighed. “Have you heard nothing I’ve told you, Jon? Do you think you are the first?” He shook his ancient head, a gesture weary beyond words. “Three times the gods saw fit to test my vows. Once when I was a boy, once in the fullness of my manhood, and once when I had grown old. By then my strength was fled, my eyes grown dim, yet that last choice was as cruel as the first. My ravens would bring the news from the south, words darker than their wings, the ruin of my House, the death of my kin, disgrace and desolation. What could I have done, old, blind, frail? I was helpless as a suckling babe, yet still it grieved me to sit forgotten as they cut down my brother’s poor grandson, and his son, and even the little children …”
-Jon was shocked to see the shine of tears in the old man ’ s eyes . <START> Who are you? <END> he asked quietly, almost in dread.
+Jon was shocked to see the shine of tears in the old man ’ s eyes . <BOS> Who are you? <EOS> he asked quietly, almost in dread.
 A toothless smile quivered on the ancient lips. “Only a maester of the Citadel, bound in service to Castle Black and the Night’s Watch. In my order, we put aside our house names when we take our vows and don the collar.” The old man touched the maester’s chain that hung loosely around his thin, fleshless neck. “My father was Maekar, the First of his Name, and my brother Aegon reigned after him in my stead. My grandfather named me for Prince Aemon the Dragonknight, who was his uncle, or his father, depending on which tale you believe. Aemon, he called me …”
 “Aemon … Targaryen?” Jon could scarcely believe it.
 “Once,” the old man said. “Once. So you see, Jon, I do know … and knowing, I will not tell you stay or go. You must make that choice yourself, and live with it all the rest of your days. As I have.” His voice fell to a whisper. “As I have …”
@@ -1026,7 +1026,7 @@ Out of the corner of his eye, Jon glimpsed a pale shape moving through the trees
 Jon told the direwolf as he swung up into the saddle . He turned the mare ’ s head to slide off through the trees, but they were on him before he had gone ten feet . <BOS> Traitor, <EOS>
 “Jon!” Pyp shouted after him.
 “Pull up,” Grenn said. “You can’t outrun us all.”
-Jon wheeled around to face them, drawing his sword . <START> Get back . I don ’ t wish to hurt you, but I will if I have to . <END>
+Jon wheeled around to face them, drawing his sword . <BOS> Get back . I don ’ t wish to hurt you, but I will if I have to . <EOS>
 “One against seven?” Halder gave a signal. The boys spread out, surrounding him.
 Jon demanded . <BOS> What do you want with me? <EOS>
 “We want to take you back where you belong,” Pyp said.
@@ -1043,7 +1043,7 @@ Jon said fervently . <BOS> I have to, <EOS>
 “You don’t have to tell me the words, I know them as well as you do.” He was angry now. Why couldn’t they let him go in peace? They were only making it harder.
 “I am the sword in the darkness,” Halder intoned.
 “The watcher on the walls,” piped Toad.
-Jon cursed them all to their faces . They took no notice . Pyp spurred his horse closer, reciting, <START> I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men . <END>
+Jon cursed them all to their faces . They took no notice . Pyp spurred his horse closer, reciting, <BOS> I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men . <EOS>
 Jon warned him, brandishing his sword . <BOS> Stay back, I mean it, Pyp. <EOS> They weren ’ t even wearing armor, he could cut them to pieces if he had to.
 Matthar had circled behind him. He joined the chorus. “I pledge my life and honor to the Night’s Watch.”
 Jon kicked his mare, spinning her in a circle. The boys were all around him now, closing from every side.
@@ -1063,7 +1063,7 @@ Jon opened a shuttered window, took the flagon of beer off the outside ledge, an
 “Doubtless you loved your father,” Mormont said when Jon brought him his horn. “The things we love destroy us every time, lad. Remember when I told you that?”
 Jon said sullenly . He did not care to talk of his father ’ s death, not even to Mormont . <BOS> I remember, <EOS>
 “See that you never forget it. The hard truths are the ones to hold tight. Fetch me my plate. Is it ham again? So be it. You look weary. Was your moonlight ride so tiring?”
-Jon ’ s throat was dry . <START> You know? <END>
+Jon ’ s throat was dry . <BOS> You know? <EOS>
 “Know,” the raven echoed from Mormont’s shoulder. “Know.”
 The Old Bear snorted. “Do you think they chose me Lord Commander of the Night’s Watch because I’m dumb as a stump, Snow? Aemon told me you’d go. I told him you’d be back. I know my men … and my boys too. Honor set you on the kingsroad … and honor brought you back.”
 Jon said . <BOS> My friends brought me back, <EOS>
@@ -1072,7 +1072,7 @@ Jon said . <BOS> My friends brought me back, <EOS>
 “If truth be told, we expected you to do just as you did.” Mormont tried a plum, spit out the pit. “I ordered a watch kept over you. You were seen leaving. If your brothers had not fetched you back, you would have been taken along the way, and not by friends. Unless you have a horse with wings like a raven. Do you?”
 Jon felt like a fool . <BOS> No. <EOS>
 “Pity, we could use a horse like that.”
-Jon stood tall . He told himself that he would die well; that much he could do, at the least . <START> I know the penalty for desertion, my lord . I ’ m not afraid to die . <END>
+Jon stood tall . He told himself that he would die well; that much he could do, at the least . <BOS> I know the penalty for desertion, my lord . I ’ m not afraid to die . <EOS>
 “Die!” the raven cried.
 “Nor live, I hope,” Mormont said, cutting his ham with a dagger and feeding a bite to the bird. “You have not deserted—yet. Here you stand. If we beheaded every boy who rode to Mole’s Town in the night, only ghosts would guard the Wall. Yet maybe you mean to flee again on the morrow, or a fortnight from now. Is that it? Is that your hope, boy?”
 Jon kept silent.
@@ -1086,7 +1086,7 @@ I have no place, Jon wanted to say, I’m a bastard, I have no rights, no name, 
 “Ben Jen,” the raven squawked, bobbing its head, bits of egg dribbling from its beak. “Ben Jen. Ben Jen.”
 Jon said . There had been others . Too many . <BOS> No, <EOS>
 “Do you think your brother’s war is more important than ours?” the old man barked.
-Jon chewed his lip . The raven flapped its wings at him . <START> War, war, war, war, <END> it sang.
+Jon chewed his lip . The raven flapped its wings at him . <BOS> War, war, war, war, <EOS> it sang.
 “It’s not,” Mormont told him. “Gods save us, boy, you’re not blind and you’re not stupid. When dead men come hunting in the night, do you think it matters who sits the Iron Throne?”
 “No.” Jon had not thought of it that way.
 “Your lord father sent you to us, Jon. Why, who can say?”
@@ -1094,5 +1094,5 @@ Jon chewed his lip . The raven flapped its wings at him . <START> War, war, war,
 “All I know is that the blood of the First Men flows in the veins of the Starks. The First Men built the Wall, and it’s said they remember things otherwise forgotten. And that beast of yours … he led us to the wights, warned you of the dead man on the steps. Ser Jaremy would doubtless call that happenstance, yet Ser Jaremy is dead and I’m not.” Lord Mormont stabbed a chunk of ham with the point of his dagger. “I think you were meant to be here, and I want you and that wolf of yours with us when we go beyond the Wall.”
 His words sent a chill of excitement down Jon’s back. “Beyond the Wall?”
 “You heard me. I mean to find Ben Stark, alive or dead.” He chewed and swallowed. “I will not sit here meekly and wait for the snows and the ice winds. We must know what is happening. This time the Night’s Watch will ride in force, against the King-beyond-the-Wall, the Others, and anything else that may be out there. I mean to command them myself.” He pointed his dagger at Jon’s chest. “By custom, the Lord Commander’s steward is his squire as well … but I do not care to wake every dawn wondering if you’ve run off again. So I will have an answer from you, Lord Snow, and I will have it now. Are you a brother of the Night’s Watch … or only a bastard boy who wants to play at war?”
-Jon Snow straightened himself and took a long deep breath . Forgive me, Father . Robb, Arya, Bran … forgive me, I cannot help you . He has the truth of it . This is my place . <START> I am … yours, my lord . Your man . I swear it . I will not run again . <END>
+Jon Snow straightened himself and took a long deep breath . Forgive me, Father . Robb, Arya, Bran … forgive me, I cannot help you . He has the truth of it . This is my place . <BOS> I am … yours, my lord . Your man . I swear it . I will not run again . <EOS>
 The Old Bear snorted. “Good. Now go put on your sword.”

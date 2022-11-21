@@ -28,8 +28,8 @@ def alterline(line:str):
         return line.rstrip()
     if words[0] == 'Jon':
         if len(start) == 1:
-            word_ls = list(map(lambda x: x.replace('“', '<START>'), words))
-            word_ls = list(map(lambda x: x.replace('”', '<END>'), word_ls))
+            word_ls = list(map(lambda x: x.replace('“', '<BOS>'), words))
+            word_ls = list(map(lambda x: x.replace('”', '<EOS>'), word_ls))
             return TreebankWordDetokenizer().detokenize(word_ls)
             # print('\n')
     if len(start) == 2: 
