@@ -1,0 +1,4 @@
+.history
+.ipynb_checkpoints
+venv
+*.txt.lock
