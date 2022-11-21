@@ -1,16 +1,16 @@
 from nltk.tokenize import word_tokenize
 from nltk.tokenize.treebank import TreebankWordDetokenizer
 
-file = open("./txtfiles/got1_Jon.txt", "r")
-testfile = open("Jon_1.txt","w")
+file = open("./data/txtfiles/got1_Jon.txt", "r")
+testfile = open("./data/Jon_1.txt","w")
 
 
 # cases: clean symbol near ""
 # Jon index 0, "" => token, 
 # Jon mid, mid -> front, 1 and 2 combine
 # Jon mid, no 2, find next period. second " before Jon 
-START = "<BOS>"
-END = "<EOS>"
+START = "[BOS]"
+END = "[EOS]"
 
 
 verbs = ["said", "felt", "told"]
@@ -24,12 +24,17 @@ def alterline(line:str):
             start.append(i)
         if word == '”':
             end.append(i)
+    words = list(map(lambda x: x.replace(',', ""), words))
+    words = list(map(lambda x: x.replace('.', ""), words))
+
     if len(start) > 2 or len(start) != len(end): 
-        return line.rstrip()
+        word_ls = list(map(lambda x: x.replace('“', ""), words))
+        word_ls = list(map(lambda x: x.replace('”', ""), word_ls))
+        return TreebankWordDetokenizer().detokenize(word_ls)
     if words[0] == 'Jon':
         if len(start) == 1:
-            word_ls = list(map(lambda x: x.replace('“', '<START>'), words))
-            word_ls = list(map(lambda x: x.replace('”', '<END>'), word_ls))
+            word_ls = list(map(lambda x: x.replace('“', START), words))
+            word_ls = list(map(lambda x: x.replace('”', END), word_ls))
             return TreebankWordDetokenizer().detokenize(word_ls)
             # print('\n')
     if len(start) == 2: 
@@ -51,7 +56,9 @@ def alterline(line:str):
             newline = words[:start[0]] + context + dialogue
             print(newline)
             return TreebankWordDetokenizer().detokenize(newline)
-    return line.rstrip()
+    word_ls = list(map(lambda x: x.replace('“', ""), words))
+    word_ls = list(map(lambda x: x.replace('”', ""), word_ls))
+    return TreebankWordDetokenizer().detokenize(word_ls)
 tmp = []
 for i in range(2205):
     line = file.readline()
