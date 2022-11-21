@@ -2,7 +2,7 @@ from nltk.tokenize import word_tokenize
 from nltk.tokenize.treebank import TreebankWordDetokenizer
 
 file = open("./data/txtfiles/got1_Jon.txt", "r")
-testfile = open("./data/Jon_1.txt","w")
+testfile = open("./data/Jon_version2.txt","w")
 
 
 # cases: clean symbol near ""
@@ -24,14 +24,14 @@ def alterline(line:str):
             start.append(i)
         if word == '”':
             end.append(i)
-    words = list(map(lambda x: x.replace(',', ""), words))
-    words = list(map(lambda x: x.replace('.', ""), words))
+    # words = list(map(lambda x: x.replace(',', " "), words))
+    # words = list(map(lambda x: x.replace('.', " "), words))
 
     if len(start) > 2 or len(start) != len(end): 
         word_ls = list(map(lambda x: x.replace('“', ""), words))
         word_ls = list(map(lambda x: x.replace('”', ""), word_ls))
         return TreebankWordDetokenizer().detokenize(word_ls)
-    if words[0] == 'Jon':
+    if len(words) > 0 and words[0] == 'Jon':
         if len(start) == 1:
             word_ls = list(map(lambda x: x.replace('“', START), words))
             word_ls = list(map(lambda x: x.replace('”', END), word_ls))
