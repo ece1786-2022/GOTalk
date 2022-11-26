@@ -1,8 +1,9 @@
 from nltk.tokenize import word_tokenize
 from nltk.tokenize.treebank import TreebankWordDetokenizer
-
-file = open("./data/txtfiles/got1_Jon.txt", "r")
-testfile = open("./data/Jon_version2.txt","w")
+from sklearn.model_selection import train_test_split
+file = open("./txtfiles/got1_Jon.txt", "r")
+# file = open("./txtfiles/got1.txt", "r")
+testfile = open("./got1_fined.txt","w")
 
 
 # cases: clean symbol near ""
@@ -54,20 +55,48 @@ def alterline(line:str):
             context = words[end[0]+1:]
             dialogue = [START] + words[start[0] + 1:end[0]] + [END]
             newline = words[:start[0]] + context + dialogue
-            print(newline)
             return TreebankWordDetokenizer().detokenize(newline)
     word_ls = list(map(lambda x: x.replace('“', ""), words))
     word_ls = list(map(lambda x: x.replace('”', ""), word_ls))
     return TreebankWordDetokenizer().detokenize(word_ls)
 tmp = []
-for i in range(2205):
+for i in range(1819): # length of file
     line = file.readline()
+    if len(line.split()) == 1:
+        continue 
     if line != "\n":
         newline = alterline(line)
         testfile.write(newline)
         testfile.write('\n')
 testfile.close()
 
+
+file = open("./got1_fined.txt", "r")
+full_texts =[]
+texts = []
+labels = []
+for i in range(905): # length of got1_fined
+    line = file.readline()
+    words = word_tokenize(line)
+    sentence = TreebankWordDetokenizer().detokenize(words)
+    if sentence[-1] == ']':
+        sentence = sentence + ' '
+    full_texts.append(sentence)
+    # texts.append(TreebankWordDetokenizer().detokenize(words[:-1]))
+    # labels.append(TreebankWordDetokenizer().detokenize(words[1:]))
+    
+train, test = train_test_split(full_texts, test_size=0.2, shuffle=False) # note shall we shuffle?? #
+
+
+file = open('./train_v4.txt', 'w')
+for i in train:
+    file.write(i)
+file.close()
+
+file = open('./test_v4.txt', 'w')
+for i in test:
+    file.write(i)
+file.close()
 
 
 # print(tmp, tmp.index(6))
