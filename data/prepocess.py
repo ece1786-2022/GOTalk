@@ -2,8 +2,8 @@ from nltk.tokenize import word_tokenize
 from nltk.tokenize.treebank import TreebankWordDetokenizer
 from sklearn.model_selection import train_test_split
 #file = open("./data/txtfiles/got1_Jon.txt", "r")
-file = open("./txtfiles/got2_Jon.txt", "r")
-testfile = open("./got2_fined.txt","w")
+file = open("./txtfiles/got3_Jon.txt", "r")
+testfile = open("./got3_fined.txt","w")
 
 
 # cases: clean symbol near ""
@@ -62,7 +62,7 @@ def alterline(line:str):
 
 
 
-for i in range(1779):
+for i in range(2429):
     line = file.readline()
     if len(line.split()) == 1:
         continue 
@@ -73,11 +73,11 @@ for i in range(1779):
 testfile.close()
 
 
-file = open("./got2_fined.txt", "r")
+file = open("./got3_fined.txt", "r")
 full_texts =[]
 texts = []
 labels = []
-for i in range(888):
+for i in range(1210):
     line = file.readline()
     words = word_tokenize(line)
     sentence = TreebankWordDetokenizer().detokenize(words)
@@ -92,12 +92,12 @@ for i in range(888):
 train, test = train_test_split(full_texts, test_size=0.2, shuffle=False)
 
 
-file = open('./got2_train.txt', 'w')
+file = open('./got3_train.txt', 'w')
 for i in train:
     file.write(i)
 file.close()
 
-file = open('./got2_test.txt', 'w')
+file = open('./got3_test.txt', 'w')
 for i in test:
     file.write(i)
 file.close()
