@@ -10,8 +10,8 @@ testfile = open("./got3_fined.txt","w")
 # Jon index 0, "" => token, 
 # Jon mid, mid -> front, 1 and 2 combine
 # Jon mid, no 2, find next period. second " before Jon 
-START = "[BOS]"
-END = "[EOS]"
+START = "<|endoftext|>"
+END = "<|endoftext|>"
 
 
 verbs = ["said", "felt", "told"]
@@ -69,38 +69,38 @@ for i in range(2429):
     if line != "\n":
         newline = alterline(line)
         testfile.write(newline)
-        testfile.write('\n')
+        # testfile.write('\n')
 testfile.close()
 
 
-file = open("./got3_fined.txt", "r")
-full_texts =[]
-texts = []
-labels = []
-for i in range(1210):
-    line = file.readline()
-    words = word_tokenize(line)
-    sentence = TreebankWordDetokenizer().detokenize(words)
-    if len(sentence) == 0: 
-        print(line, i)
-    if sentence[-1] == ']':
-        sentence = sentence + ' '
-    full_texts.append(sentence)
-    # texts.append(TreebankWordDetokenizer().detokenize(words[:-1]))
-    # labels.append(TreebankWordDetokenizer().detokenize(words[1:]))
+# file = open("./got3_fined.txt", "r")
+# full_texts =[]
+# texts = []
+# labels = []
+# for i in range(1210):
+#     line = file.readline()
+#     words = word_tokenize(line)
+#     sentence = TreebankWordDetokenizer().detokenize(words)
+#     if len(sentence) == 0: 
+#         print(line, i)
+#     if sentence[-1] == ']':
+#         sentence = sentence + ' '
+#     full_texts.append(sentence)
+#     # texts.append(TreebankWordDetokenizer().detokenize(words[:-1]))
+#     # labels.append(TreebankWordDetokenizer().detokenize(words[1:]))
     
-train, test = train_test_split(full_texts, test_size=0.2, shuffle=False)
+# train, test = train_test_split(full_texts, test_size=0.2, shuffle=False)
 
 
-file = open('./got3_train.txt', 'w')
-for i in train:
-    file.write(i)
-file.close()
+# file = open('./got3_train.txt', 'w')
+# for i in train:
+#     file.write(i)
+# file.close()
 
-file = open('./got3_test.txt', 'w')
-for i in test:
-    file.write(i)
-file.close()
+# file = open('./got3_test.txt', 'w')
+# for i in test:
+#     file.write(i)
+# file.close()
 
 
 # print(tmp, tmp.index(6))
