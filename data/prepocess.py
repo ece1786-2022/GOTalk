@@ -10,8 +10,8 @@ testfile = open("./got3_fined.txt","w")
 # Jon index 0, "" => token, 
 # Jon mid, mid -> front, 1 and 2 combine
 # Jon mid, no 2, find next period. second " before Jon 
-START = "[BOS]"
-END = "[EOS]"
+START = "<|endoftext|>"
+END = "<|endoftext|>"
 
 
 verbs = ["said", "felt", "told"]
@@ -85,6 +85,7 @@ for i in range(1210):
         print(line, i)
     if sentence[-1] == ']':
         sentence = sentence + ' '
+    # sentence.replace(" ’ ", "’")
     full_texts.append(sentence)
     # texts.append(TreebankWordDetokenizer().detokenize(words[:-1]))
     # labels.append(TreebankWordDetokenizer().detokenize(words[1:]))
