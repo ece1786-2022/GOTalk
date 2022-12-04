@@ -12,15 +12,18 @@ const buttonStyle = {
 export default function Home(){
     const [apiKey, setKey] = useState()
     const navigate = useNavigate()
+    const [ending, setEnding] = useState(1)
+    const [round, setRound] = useState(10)
 
     // clear key 
     useEffect(()=>{
+        setEnding('1')
         setKey(null)
     },[])
 
     const onFormSubmit = e => {
         e.preventDefault()
-        navigate('/GPT3',{state:{key:apiKey}})
+        navigate('/GPT3',{state:{key:apiKey, ending:ending, round: round}})
       }
 
     const popover = (
@@ -31,7 +34,23 @@ export default function Home(){
                     <Form.Label>OpenAI key</Form.Label>
                     <Form.Control type="password" placeholder="Password" onChange={(e)=>setKey(e.target.value)} />
                   </Form.Group>
-                  <Button variant="dark" type="submit">
+                  <Form.Group name="ending">
+                    <Form.Label>Select ending</Form.Label>
+                  <Form.Select aria-label="Default select example" onChange={e => {setEnding(e.target.value)}}>
+                    <option value="1">Jon Snow becomes the King</option>
+                    <option value="2">Jon Snow kills the nightking</option>
+                    <option value="3">Jon snow finds his love of the life</option>
+                    </Form.Select>
+                  </Form.Group>
+                  <Form.Group name="round">
+                    <Form.Label>Select round</Form.Label>
+                  <Form.Select aria-label="Default select example" onChange={e => {setRound(e.target.value)}}>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    </Form.Select>
+                  </Form.Group>
+                  <Button style={{marginTop:'5px'}} variant="dark" type="submit">
                   Start
                  </Button>
               </Form>

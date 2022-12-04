@@ -1,6 +1,7 @@
 import React from 'react';
 import GPT3 from './GPT3';
 import Home from './Home';
+import Test from './test';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import ReactDOM from "react-dom/client";
@@ -9,7 +10,6 @@ import {
   RouterProvider,
   Route,
 } from "react-router-dom";
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -26,9 +26,7 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
