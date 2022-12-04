@@ -2,8 +2,8 @@ from nltk.tokenize import word_tokenize
 from nltk.tokenize.treebank import TreebankWordDetokenizer
 from sklearn.model_selection import train_test_split
 #file = open("./data/txtfiles/got1_Jon.txt", "r")
-file = open("./txtfiles/got1.txt", "r")
-testfile = open("./got1_fined.txt","w")
+file = open("./txtfiles/GOT_Jon1235all.txt", "r")
+testfile = open("./GOT_Jon1235all_fined.txt","w")
 
 
 # cases: clean symbol near ""
@@ -56,11 +56,14 @@ def alterline(line:str):
             dialogue = [START] + words[start[0] + 1:end[0]] + [END]
             newline = words[:start[0]] + context + dialogue
             return TreebankWordDetokenizer().detokenize(newline)
-    word_ls = list(map(lambda x: x.replace('“', ""), words))
-    word_ls = list(map(lambda x: x.replace('”', ""), word_ls))
-    return TreebankWordDetokenizer().detokenize(word_ls)
-tmp = []
-for i in range(13998):
+    # word_ls = list(map(lambda x: x.replace('“', ""), words))
+    # word_ls = list(map(lambda x: x.replace('”', ""), word_ls))
+    return TreebankWordDetokenizer().detokenize(words)
+    # return TreebankWordDetokenizer().detokenize(word_ls)
+
+
+
+for i in range(9856):
     line = file.readline()
     if len(line.split()) == 1:
         continue 
@@ -71,31 +74,39 @@ for i in range(13998):
 testfile.close()
 
 
-file = open("./got1_fined.txt", "r")
+file = open("./GOT_Jon1235all_fined.txt", "r")
 full_texts =[]
 texts = []
 labels = []
-for i in range(6731):
+for i in range(4903):
     line = file.readline()
     words = word_tokenize(line)
     sentence = TreebankWordDetokenizer().detokenize(words)
+    if len(sentence) == 0: 
+        print(line, i)
     if sentence[-1] == ']':
         sentence = sentence + ' '
+    sentence = sentence.replace(" ’ ", " ' ")
+    sentence = sentence.replace("“", '"')
+    sentence = sentence.replace("”", '"')
+    sentence = sentence.replace(". [BOS]", "[BOS]")
     full_texts.append(sentence)
     # texts.append(TreebankWordDetokenizer().detokenize(words[:-1]))
     # labels.append(TreebankWordDetokenizer().detokenize(words[1:]))
     
-train, test = train_test_split(full_texts, test_size=0.2, shuffle=True)
+train, test = train_test_split(full_texts, test_size=0.2, shuffle=False)
 
 
-file = open('./train_v4.txt', 'w')
+file = open('./GOT_Train_final.txt', 'w')
 for i in train:
-    file.write(i)
+    file.write(" " + i)
+    # file.write('\n')
 file.close()
 
-file = open('./test_v4.txt', 'w')
+file = open('./GOT_Test_final.txt', 'w')
 for i in test:
-    file.write(i)
+    file.write(" " + i)
+    # file.write('\n')
 file.close()
 
 
