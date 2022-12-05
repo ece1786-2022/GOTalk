@@ -61,7 +61,7 @@ export default function Home(){
     return (
         <div className="Home">
             <div className="center-box">
-            <Button sytle={buttonStyle} size='lg' variant="outline-light" onClick={()=>{navigate('/GPT2',{state:{key:1}})}}>
+            <Button disabled={true} sytle={buttonStyle} size='lg' variant="outline-light" onClick={()=>{navigate('/GPT2',{state:{key:1}})}}>
                  <h1>GPT2</h1> 
             </Button>
             <OverlayTrigger trigger="click" placement="bottom" overlay={popover}>
