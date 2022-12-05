@@ -29,6 +29,11 @@ endings = {
 def server():
     return send_from_directory(app.static_folder, 'index.html')
 
+
+@app.route('/api/GPT2', methods=["POST"])
+def play_GPT2():    
+    pass
+
 @app.route('/api/GPT3', methods=['POST'])
 def play_gpt3():
     if request.method == "POST":
