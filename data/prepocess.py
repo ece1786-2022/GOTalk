@@ -3,7 +3,7 @@ from nltk.tokenize.treebank import TreebankWordDetokenizer
 from sklearn.model_selection import train_test_split
 #file = open("./data/txtfiles/got1_Jon.txt", "r")
 file = open("./txtfiles/GOT_Jon1235all.txt", "r")
-testfile = open("./GOT_Jon1235all_fined.txt","w")
+testfile = open("./GOT_Jon1235all_fined_Final.txt","w")
 
 
 # cases: clean symbol near ""
@@ -56,9 +56,9 @@ def alterline(line:str):
             dialogue = [START] + words[start[0] + 1:end[0]] + [END]
             newline = words[:start[0]] + context + dialogue
             return TreebankWordDetokenizer().detokenize(newline)
-    # word_ls = list(map(lambda x: x.replace('“', ""), words))
-    # word_ls = list(map(lambda x: x.replace('”', ""), word_ls))
-    return TreebankWordDetokenizer().detokenize(words)
+    word_ls = list(map(lambda x: x.replace('“', ""), words))
+    word_ls = list(map(lambda x: x.replace('”', ""), word_ls))
+    return TreebankWordDetokenizer().detokenize(word_ls)
     # return TreebankWordDetokenizer().detokenize(word_ls)
 
 
@@ -74,7 +74,7 @@ for i in range(9856):
 testfile.close()
 
 
-file = open("./GOT_Jon1235all_fined.txt", "r")
+file = open("./GOT_Jon1235all_fined_Final.txt", "r")
 full_texts =[]
 texts = []
 labels = []
@@ -87,9 +87,12 @@ for i in range(4903):
     if sentence[-1] == ']':
         sentence = sentence + ' '
     sentence = sentence.replace(" ’ ", " ' ")
-    sentence = sentence.replace("“", '"')
-    sentence = sentence.replace("”", '"')
+    # sentence = sentence.replace("“", '"')
+    # sentence = sentence.replace("”", '"')
     sentence = sentence.replace(". [BOS]", "[BOS]")
+    sentence = sentence.replace(", [BOS]", "[BOS]")
+    sentence = sentence.replace("Jon said,", "Jon said")
+    sentence = sentence.replace("Jon said .", "Jon said")
     full_texts.append(sentence)
     # texts.append(TreebankWordDetokenizer().detokenize(words[:-1]))
     # labels.append(TreebankWordDetokenizer().detokenize(words[1:]))
@@ -97,15 +100,17 @@ for i in range(4903):
 train, test = train_test_split(full_texts, test_size=0.2, shuffle=False)
 
 
-file = open('./GOT_Train_final.txt', 'w')
+file = open('./GOT_Train_Final1.txt', 'w')
 for i in train:
-    file.write(" " + i)
+    if '[BOS]' in i or '[EOS]' in i:
+        file.write(" " + i)
     # file.write('\n')
 file.close()
 
-file = open('./GOT_Test_final.txt', 'w')
+file = open('./GOT_Test_Final1.txt', 'w')
 for i in test:
-    file.write(" " + i)
+    if '[BOS]' in i or '[EOS]' in i: # keep rows with EOS or BOS
+        file.write(" " + i)
     # file.write('\n')
 file.close()
 
@@ -119,3 +124,4 @@ file.close()
 #     if word == '“':
 #         l.append(i)
 # print(len(l))
+
