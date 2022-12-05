@@ -27,6 +27,7 @@ def alterline(line:str):
             end.append(i)
     # words = list(map(lambda x: x.replace(',', " "), words))
     # words = list(map(lambda x: x.replace('.', " "), words))
+    # words = list(map(lambda x: x.replace(" ’ ", " ' "), words))
 
     if len(start) > 2 or len(start) != len(end): 
         word_ls = list(map(lambda x: x.replace('“', ""), words))
@@ -69,46 +70,37 @@ for i in range(2429):
     if line != "\n":
         newline = alterline(line)
         testfile.write(newline)
-        # testfile.write('\n')
+        testfile.write('\n')
 testfile.close()
 
 
-# file = open("./got3_fined.txt", "r")
-# full_texts =[]
-# texts = []
-# labels = []
-# for i in range(1210):
-#     line = file.readline()
-#     words = word_tokenize(line)
-#     sentence = TreebankWordDetokenizer().detokenize(words)
-#     if len(sentence) == 0: 
-#         print(line, i)
-#     if sentence[-1] == ']':
-#         sentence = sentence + ' '
-#     full_texts.append(sentence)
-#     # texts.append(TreebankWordDetokenizer().detokenize(words[:-1]))
-#     # labels.append(TreebankWordDetokenizer().detokenize(words[1:]))
+file = open("./got_1+2+3_fined.txt", "r")
+full_texts =[]
+texts = []
+labels = []
+for i in range(3003):
+    line = file.readline()
+    words = word_tokenize(line)
+    sentence = TreebankWordDetokenizer().detokenize(words)
+    if sentence[-1] == ']':
+        sentence = sentence + ' '
+    # sentence = sentence.replace(" [BOS] ", " <|startoftext|> ")
+    # sentence = sentence.replace(" [EOS] ", " <|endoftext|> ")
+    sentence = sentence.replace(" ’ ", " ' ")
+    full_texts.append(sentence)
     
-# train, test = train_test_split(full_texts, test_size=0.2, shuffle=False)
+train, test = train_test_split(full_texts, test_size=0.2, shuffle=False)
 
 
-# file = open('./got3_train.txt', 'w')
-# for i in train:
-#     file.write(i)
-# file.close()
+file = open('./got_train_2.0.txt', 'w')
+for i in train:
+    file.write(i)
+file.close()
 
-# file = open('./got3_test.txt', 'w')
-# for i in test:
-#     file.write(i)
-# file.close()
+file = open('./got_test_2.0.txt', 'w')
+for i in test:
+    file.write(i)
+file.close()
 
 
-# print(tmp, tmp.index(6))
 
-# s = '''“He’s not like the others,” Jon said. “He never makes a sound. That’s why I named him Ghost. That, and because he’s white. The others are all dark, grey or black.” '''
-# words = word_tokenize(s)
-# l = []
-# for i, word in enumerate(words): 
-#     if word == '“':
-#         l.append(i)
-# print(len(l))
