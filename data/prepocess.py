@@ -2,16 +2,16 @@ from nltk.tokenize import word_tokenize
 from nltk.tokenize.treebank import TreebankWordDetokenizer
 from sklearn.model_selection import train_test_split
 #file = open("./data/txtfiles/got1_Jon.txt", "r")
-file = open("./txtfiles/got3_Jon.txt", "r")
-testfile = open("./got3_fined.txt","w")
+file = open("./txtfiles/GOT_Jon1235all.txt", "r")
+testfile = open("./GOT_Jon1235all_fined.txt","w")
 
 
 # cases: clean symbol near ""
 # Jon index 0, "" => token, 
 # Jon mid, mid -> front, 1 and 2 combine
 # Jon mid, no 2, find next period. second " before Jon 
-START = "<|endoftext|>"
-END = "<|endoftext|>"
+START = "[BOS]"
+END = "[EOS]"
 
 
 verbs = ["said", "felt", "told"]
@@ -57,13 +57,14 @@ def alterline(line:str):
             dialogue = [START] + words[start[0] + 1:end[0]] + [END]
             newline = words[:start[0]] + context + dialogue
             return TreebankWordDetokenizer().detokenize(newline)
-    word_ls = list(map(lambda x: x.replace('“', ""), words))
-    word_ls = list(map(lambda x: x.replace('”', ""), word_ls))
-    return TreebankWordDetokenizer().detokenize(word_ls)
+    # word_ls = list(map(lambda x: x.replace('“', ""), words))
+    # word_ls = list(map(lambda x: x.replace('”', ""), word_ls))
+    return TreebankWordDetokenizer().detokenize(words)
+    # return TreebankWordDetokenizer().detokenize(word_ls)
 
 
 
-for i in range(2429):
+for i in range(9856):
     line = file.readline()
     if len(line.split()) == 1:
         continue 
@@ -74,32 +75,39 @@ for i in range(2429):
 testfile.close()
 
 
-file = open("./got_1+2+3_fined.txt", "r")
+file = open("./GOT_Jon1235all_fined.txt", "r")
 full_texts =[]
 texts = []
 labels = []
-for i in range(3003):
+for i in range(4903):
     line = file.readline()
     words = word_tokenize(line)
     sentence = TreebankWordDetokenizer().detokenize(words)
+    if len(sentence) == 0: 
+        print(line, i)
     if sentence[-1] == ']':
         sentence = sentence + ' '
-    # sentence = sentence.replace(" [BOS] ", " <|startoftext|> ")
-    # sentence = sentence.replace(" [EOS] ", " <|endoftext|> ")
     sentence = sentence.replace(" ’ ", " ' ")
+    sentence = sentence.replace("“", '"')
+    sentence = sentence.replace("”", '"')
+    sentence = sentence.replace(". [BOS]", "[BOS]")
     full_texts.append(sentence)
+    # texts.append(TreebankWordDetokenizer().detokenize(words[:-1]))
+    # labels.append(TreebankWordDetokenizer().detokenize(words[1:]))
     
 train, test = train_test_split(full_texts, test_size=0.2, shuffle=False)
 
 
-file = open('./got_train_2.0.txt', 'w')
+file = open('./GOT_Train_final.txt', 'w')
 for i in train:
-    file.write(i)
+    file.write(" " + i)
+    # file.write('\n')
 file.close()
 
-file = open('./got_test_2.0.txt', 'w')
+file = open('./GOT_Test_final.txt', 'w')
 for i in test:
-    file.write(i)
+    file.write(" " + i)
+    # file.write('\n')
 file.close()
 
 
