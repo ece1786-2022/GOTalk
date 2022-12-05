@@ -2,19 +2,30 @@
   overflow-y: scroll;
   width:50vw;
   height:70vh;
+  margin: 50px auto;
+  background-color:  black;
+  position : relative; bottom:0;
+}
+.loading-view{
+  width:50vw;
+  height:70vh;
   margin: 100px auto;
-  background-color: white;
 }
 
+.loading-spinner{
+  position:absolute;
+  top:50px;
+  left:50px;
+}
 .options{
   width: 50vw;
-  margin:auto;
+  margin: auto;
   display: flex;
   justify-content: space-between;
 }
 
 .App{
-  background-color: rgb(51, 49, 49);
+  background-color: black;
   background-size: cover;
   height:100vh;
 }
