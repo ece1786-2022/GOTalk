@@ -2,7 +2,7 @@
   overflow-y: scroll;
   width:50vw;
   height:70vh;
-  margin: 100px auto;
+  margin: 50px auto;
   background-color:  black;
   position : relative; bottom:0;
 }
@@ -19,7 +19,7 @@
 }
 .options{
   width: 50vw;
-  margin:auto;
+  margin: auto;
   display: flex;
   justify-content: space-between;
 }

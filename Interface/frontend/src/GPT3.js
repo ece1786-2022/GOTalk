@@ -46,7 +46,7 @@ function GPT3() {
         })
     };
 
-    fetch("http://localhost:5000/api/GPT3", requestBody)
+    fetch("http://0.0.0.0:5000/api/GPT3", requestBody)
     .then((res)=>{
       return res.json()
     })
@@ -77,8 +77,8 @@ function GPT3() {
   return (
     <div className='App'>
       {loading?<LoadingView/>:<></>}
-      <Stack direction="vertical" gap={3}>
-       <ScrollView ref={scrollViewRef} text={text}/>
+      <Stack direction="vertical" gap={20}>
+        <ScrollView ref={scrollViewRef} text={text}/>
         <Options handleOptions={handleOptions} loading={loading} ref={otherRef}/>
       </Stack>
     </div>
