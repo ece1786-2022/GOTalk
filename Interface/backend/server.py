@@ -9,7 +9,6 @@ STATIC_FOLDER = '../frontend/build'
 app= Flask(__name__,static_folder=STATIC_FOLDER, static_url_path='')
 CORS(app)
 
-OPENAI_API_KEY = "+"
 endings = {
     1:"Jon Snow becomes the King",
     2:"Jon Snow kills the nightking",
@@ -29,13 +28,11 @@ endings = {
 @app.route('/')   
 def server():
     return send_from_directory(app.static_folder, 'index.html')
-#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
-@cross_origin
-@app.route('/api/GPT3', methods=['GET','POST','PUT'])
+
+@app.route('/api/GPT3', methods=['POST'])
 def play_gpt3():
     if request.method == "POST":
-        data = request.get_json()  
-        print(data)
+        data = request.get_json()
         key = data["key"]
         openai.api_key = key
         ending = int(data["ending"])
@@ -58,7 +55,7 @@ def play_gpt3():
         # if option != '': 
         #     complete_prompt += "Option seleted: {}".format(option)
         complete_prompt += "\nContext-{}:".format(count)
-        print(complete_prompt)
+        # print(complete_prompt)
         response = openai.Completion.create(
         model="text-davinci-003",
         prompt=complete_prompt,
@@ -71,13 +68,13 @@ def play_gpt3():
         best_of=3
         )
         text = response.choices[0].text
-        print(text)
+        # print(text)
         option_A = text.find("A.")
         option_B = text.find("B.")
         option_C = text.find("C.")
         option_D = text.find("D.")
         options = {'A':text[option_A:option_B], 'B':text[option_B:option_C], 'C':text[option_C:option_D]}
-        print(options)
+        # print(options)
         return make_response({"text": text, "options":options}, 200)
 
 
