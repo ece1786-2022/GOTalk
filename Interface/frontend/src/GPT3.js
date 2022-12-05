@@ -46,7 +46,7 @@ function GPT3() {
         })
     };
 
-    fetch("http://0.0.0.0:5000/api/GPT3", requestBody)
+    fetch("http://3.85.50.72:5000/api/GPT3", requestBody)
     .then((res)=>{
       return res.json()
     })
