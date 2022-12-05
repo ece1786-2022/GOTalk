@@ -27,6 +27,7 @@ def alterline(line:str):
             end.append(i)
     # words = list(map(lambda x: x.replace(',', " "), words))
     # words = list(map(lambda x: x.replace('.', " "), words))
+    # words = list(map(lambda x: x.replace(" ’ ", " ' "), words))
 
     if len(start) > 2 or len(start) != len(end): 
         word_ls = list(map(lambda x: x.replace('“', ""), words))
@@ -115,7 +116,6 @@ for i in test:
 file.close()
 
 
-# print(tmp, tmp.index(6))
 
 # s = '''“He’s not like the others,” Jon said. “He never makes a sound. That’s why I named him Ghost. That, and because he’s white. The others are all dark, grey or black.” '''
 # words = word_tokenize(s)
