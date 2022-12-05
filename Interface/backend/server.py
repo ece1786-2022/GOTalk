@@ -4,7 +4,7 @@ from flask_cors import CORS, cross_origin
 from flask.helpers import send_from_directory
 import openai
 
-STATIC_FOLDER = '../../frontend/build'
+STATIC_FOLDER = '../frontend/build'
 
 app= Flask(__name__,static_folder=STATIC_FOLDER, static_url_path='')
 CORS(app)
