@@ -3,11 +3,13 @@ from flask import request
 from flask_cors import CORS, cross_origin
 from flask.helpers import send_from_directory
 import openai
-
+from GPT2.model import GPT2
 STATIC_FOLDER = '../frontend/build'
 
 app= Flask(__name__,static_folder=STATIC_FOLDER, static_url_path='')
 CORS(app)
+
+model_gpt2 = GPT2()
 
 endings = {
     1:"Jon Snow becomes the King",
@@ -32,13 +34,17 @@ def server():
 
 @app.route('/api/GPT2', methods=["POST"])
 def play_GPT2():    
-    pass
+    if request.method == "POST":
+        data = request.get_json()
+        context = data["context"]
+        pred_dialogue = data["predDialogue"]
+
 
 @app.route('/api/GPT3', methods=['POST'])
 def play_gpt3():
     if request.method == "POST":
         data = request.get_json()
-        key = data["key"]
+        key = "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"
         openai.api_key = key
         ending = int(data["ending"])
         round = data["round"]
@@ -51,11 +57,13 @@ def play_gpt3():
             "Dialogue options consist of the potential words that Jon Snow is going to say. Depending "\
             "on the selected dialogue, generate the following context and dialogue options. " +\
             "The game will end by {} at the context-{}.".format(endings[ending], round) + \
-            "\nFormat:\nContext-0: Jon Snow was standing in the courtyard of the Red Keep, surrounded by the noise and commotion of a bustling castle."+\
+            "\nFormat:\nContext-0: Jon Snow was standing in the courtyard of the Red Keep,"+\
+            " surrounded by the noise and commotion of a bustling castle."+\
             " The sun was setting, casting a pinkish hue across the stone walls and cobbled pathways. "+\
             "Jon had just been told that he was going to take part in a special mission for the Lord Commander of the Night's Watch, and he was apprehensive. \n \n\n"+\
             "Dialogue Options: \nA. I'm ready for whatever task is ahead of me"+\
-                "\nB. I'm nervous about this mission \nC. What can I do to help? \nD. Other. \nOption selected: A. I'm ready for whatever task is ahead of me\n"
+            "\nB. I'm nervous about this mission \nC. What can I do to help? \nD. Other. "+\
+            "\nOption selected: A. I'm ready for whatever task is ahead of me\n"
         complete_prompt += context
         # if option != '': 
         #     complete_prompt += "Option seleted: {}".format(option)
