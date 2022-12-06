@@ -3,13 +3,13 @@ from flask import request
 from flask_cors import CORS, cross_origin
 from flask.helpers import send_from_directory
 import openai
-from GPT2.model import GPT2
+# from GPT2.model import GPT2
 STATIC_FOLDER = '../frontend/build'
 
 app= Flask(__name__,static_folder=STATIC_FOLDER, static_url_path='')
 CORS(app)
 
-model_gpt2 = GPT2()
+# model_gpt2 = GPT2()
 
 endings = {
     1:"Jon Snow becomes the King",
@@ -32,12 +32,12 @@ def server():
     return send_from_directory(app.static_folder, 'index.html')
 
 
-@app.route('/api/GPT2', methods=["POST"])
-def play_GPT2():    
-    if request.method == "POST":
-        data = request.get_json()
-        context = data["context"]
-        pred_dialogue = data["predDialogue"]
+# @app.route('/api/GPT2', methods=["POST"])
+# def play_GPT2():    
+#     if request.method == "POST":
+#         data = request.get_json()
+#         context = data["context"]
+#         pred_dialogue = data["predDialogue"]
 
 
 @app.route('/api/GPT3', methods=['POST'])
