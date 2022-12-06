@@ -44,7 +44,7 @@ def server():
 def play_gpt3():
     if request.method == "POST":
         data = request.get_json()
-        key = "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"
+        key = data["key"]
         openai.api_key = key
         ending = int(data["ending"])
         round = data["round"]
