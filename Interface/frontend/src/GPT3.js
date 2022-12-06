@@ -74,6 +74,7 @@ function GPT3() {
   if (!location.state || !location.state.key){
     return <Navigate to="/" state={{ from: location }} replace/>;
   }
+
   return (
     <div className='App'>
       {loading?<LoadingView/>:<></>}

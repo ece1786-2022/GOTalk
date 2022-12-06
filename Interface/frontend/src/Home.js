@@ -21,9 +21,37 @@ export default function Home(){
         setKey(null)
     },[])
 
+    const authKey = () =>{
+      const requestBody = {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            key:apiKey
+          })
+      };
+  
+      fetch("http://3.85.50.72:5000/api/GPT3/auth", requestBody)
+      .then((res)=>{
+        return res.json()
+      })
+      .then((res)=>{
+          return res.auth
+          }
+        ).then((res)=>{
+          if(res){
+            navigate('/GPT3',{state:{key:apiKey, ending:ending, round: round}})
+          }else{
+            alert("bad key")
+          }
+        })
+      }; 
+
     const onFormSubmit = e => {
         e.preventDefault()
-        navigate('/GPT3',{state:{key:apiKey, ending:ending, round: round}})
+        authKey()
       }
 
     const popover = (
