@@ -39,6 +39,15 @@ def server():
 #         context = data["context"]
 #         pred_dialogue = data["predDialogue"]
 
+@app.route('/api/GPT3/auth', methods=["POST"])
+def authenticate():
+    try:
+        key = request.get_json()["key"]
+        openai.api_key = key
+        openai.Model.list()
+        return make_response({"auth":True}, 200)
+    except Exception as e:
+        return make_response({"auth":False}, 200)
 
 @app.route('/api/GPT3', methods=['POST'])
 def play_gpt3():
