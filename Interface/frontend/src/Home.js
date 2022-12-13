@@ -33,7 +33,7 @@ export default function Home(){
           })
       };
   
-      fetch("http://3.85.50.72:5000/api/GPT3/auth", requestBody)
+      fetch("http://localhost:5000/api/GPT3/auth", requestBody)
       .then((res)=>{
         return res.json()
       })

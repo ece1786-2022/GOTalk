@@ -60,6 +60,7 @@ def play_gpt3():
         count = data["count"]
         option = data["option"]
         context = data["context"]
+        print(ending)
         complete_prompt = "This is a role-play-dialogue game and the background of the story will be "+ \
             "the Game of Thrones book. During this game, player will be playing as the Character Jon Snow " + \
             "and help him choose each dialogue from the three given options whenever Jon is about to speak and a forth option that is always other. "+ \
@@ -96,6 +97,7 @@ def play_gpt3():
         option_C = text.find("C.")
         option_D = text.find("D.")
         options = {'A':text[option_A:option_B], 'B':text[option_B:option_C], 'C':text[option_C:option_D]}
+        print(count)
         # print(options)
         return make_response({"text": text, "options":options}, 200)
 
