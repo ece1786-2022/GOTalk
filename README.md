@@ -1,5 +1,5 @@
 # GOTalk
-We have implement two models to play with. The GPT2 is not deployed since it's result doesn't match our expectation. But a develop version is available. \
+We have implement two models to play with. The GPT2 is not deployed since it's result doesn't match our expectation. But a develop version is available. 
 
 # Fine-tuned GPT2
 
