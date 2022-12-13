@@ -11,7 +11,7 @@ Then run the GPT2_generation_engine.ipynb to see output.
 
 # GPT3 text-completion model
 
-The GPT3 is deployed on EC2 at http://3.85.50.72:5000
+The GPT3 version is deployed on EC2 at http://3.85.50.72:5000
 
 To run a local version:
 ```
