@@ -1,7 +1,7 @@
 # GOTalk
-We have implement two models to play with. The GPT2 is not deployed since it's result doesn't match our expectation. But a develop version is available. \
+We have implement two models to play with. The GPT2 is not deployed since it's result doesn't match our expectation. But a develop version is available.
 
-# Fine-tuned GPT2
+## Fine-tuned GPT2
 
 To play the game with fine-tuned GPT2 
 
@@ -13,7 +13,7 @@ To play the game with fine-tuned GPT2
 6. Input 'A', 'B' or 'C' when you are required to choose the dialogues
 7. After the game ends, all the scripts will be saved in the play.txt for you to review
 
-# GPT3 text-completion model
+## GPT3 text-completion model
 
 The GPT3 version is deployed on EC2 at http://3.85.50.72:5000
 
@@ -28,19 +28,19 @@ The local version will run at http://localhost:5000
 
 
 ## Useful Links
-Data source:
+Data source:\
 https://www.kaggle.com/datasets/khulasasndh/game-of-thrones-books?select=004ssb.txt
 
-Pretrained GPT2 model — HScomcom/gpt2-game-of-thrones:
+Pretrained GPT2 model — HScomcom/gpt2-game-of-thrones:\
 https://huggingface.co/HScomcom/gpt2-game-of-thrones?text=My+name+is+Lewis+and+I+like+to
 
-Final fine-tuned GPT2 model —- huangtuoyue/GPT2-large-GOTfinetuned_v5:
+Final fine-tuned GPT2 model —- huangtuoyue/GPT2-large-GOTfinetuned_v5:\
 https://huggingface.co/huangtuoyue/GPT2-large-GOTfinetuned_v5
 
-Complete GPT2 100 game generations:
+Complete GPT2 100 game generations:\
 https://github.com/ece1786-2022/GOTalk/blob/main/Evaluation/GPT2_Result_Evaluation.numbers
 	
-Complete GPT3 100 game generations:
+Complete GPT3 100 game generations:\
 https://github.com/ece1786-2022/GOTalk/blob/main/Evaluation/GPT3_evaluation_text.txt
 
 
